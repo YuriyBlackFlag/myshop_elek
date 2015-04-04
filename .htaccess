@@ -1,0 +1,6 @@
+AddDefaultCharset utf-8
+<IfModule dir_module>
+    DirectoryIndex ./www/index.php
+</IfModule>
+
+php_flag register_long_arrays off
