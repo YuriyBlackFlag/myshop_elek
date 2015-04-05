@@ -34,8 +34,8 @@ span{
 }
 
 #centerColumn{
-    width: 880px;
-    max-width: 900px;
+    width: 800px;
+    max-width: 800px;
     padding-left: 130px;
     float: left;
     position: relative;
@@ -64,5 +64,10 @@ a:hover{
 
 #main{
     float: left;
-    padding: 0px 60px 40px 0px;
+    padding: 10px 40px 40px 10px;
+    background: oldlace;
+}
+#bot{
+    clear: both;
+    background: red;
 }
