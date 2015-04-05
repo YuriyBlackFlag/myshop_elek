@@ -46,3 +46,10 @@ footer{
 .cartBox{
     padding: 5px 0px 5px 0px;
 }
+
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: cornflowerblue;
+}
