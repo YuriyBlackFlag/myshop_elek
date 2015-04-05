@@ -3,6 +3,12 @@
         <div class="menuCaption">Меню:</div>
         {foreach $resCategories as $item}
         <a href="#">{$item['name']}</a><br />
+
+            {if isset($item['children'])}
+                {foreach $item['children'] as $itemChild}
+                    --<a href="#">{$itemChild['name']}</a><br />
+                {/foreach}
+            {/if}
         {/foreach}
     </div>
 </div>

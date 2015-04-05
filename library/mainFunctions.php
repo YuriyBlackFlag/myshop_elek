@@ -48,6 +48,21 @@ function d($value = null, $die = 1)
     if($die) die;
 }
 
+/**
+ * Преобразование результатов выборки в ассоциативный массив
+ * @param $res набор строк , результат работы Select
+ * @return array
+ */
+
+function createSmartyResArray($res){
+    if(!$res) return false;
+
+    $smartyRes = array();
+    while($row = mysqli_fetch_assoc($res)){
+        $smartyRes[] = $row;
+    }
+    return $smartyRes;
+}
 
 
 
