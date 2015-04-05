@@ -11,13 +11,18 @@ body{
 header{
     height: 70px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     max-height: 100px;
+    margin-left: 100px;
+    max-width: 1140px;
+    padding-left: 20px;
 }
 
 #leftColumn{
-    width: 200px;
+    width: 180px;
     float: left;
+    margin-left: 100px;
+    position: absolute;
 }
 
 #leftMenu, #loginBox, #registerBox{
@@ -29,9 +34,12 @@ span{
 }
 
 #centerColumn{
-    width: 600px;
+    width: 880px;
+    max-width: 900px;
+    padding-left: 130px;
     float: left;
-    padding-left: 90px;
+    position: relative;
+    margin-left: 250px;
 }
 
 footer{
@@ -52,4 +60,9 @@ a:visited{
 }
 a:hover{
     color: cornflowerblue;
+}
+
+#main{
+    float: left;
+    padding: 0px 60px 40px 0px;
 }

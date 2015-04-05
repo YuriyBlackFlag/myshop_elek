@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-04 12:19:16
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-05 15:47:30
          compiled from "..\views\default\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:16309551eb0dcb181c9-63166683%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e7eee698e022a5980b4cac08016aec4099da00a6' => 
     array (
       0 => '..\\views\\default\\index.tpl',
-      1 => 1428138896,
+      1 => 1428238011,
       2 => 'file',
     ),
   ),
@@ -17,10 +17,36 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'version' => 'Smarty-3.1.21-dev',
   'unifunc' => 'content_551eb0ddc29ca9_24431866',
+  'variables' => 
+  array (
+    'resProducts' => 0,
+    'item' => 0,
+  ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_551eb0ddc29ca9_24431866')) {function content_551eb0ddc29ca9_24431866($_smarty_tpl) {?>
 
+<?php  $_smarty_tpl->tpl_vars['item'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['item']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['resProducts']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+ $_smarty_tpl->tpl_vars['smarty']->value['foreach']['products']['iteration']=0;
+foreach ($_from as $_smarty_tpl->tpl_vars['item']->key => $_smarty_tpl->tpl_vars['item']->value) {
+$_smarty_tpl->tpl_vars['item']->_loop = true;
+ $_smarty_tpl->tpl_vars['smarty']->value['foreach']['products']['iteration']++;
+?>
+    <div id="main">
+        <a  href="/product/<?php echo $_smarty_tpl->tpl_vars['item']->value['id'];?>
+/">
+            <img src="/images/products/<?php echo $_smarty_tpl->tpl_vars['item']->value['image'];?>
+" width="100" />
+        </a><br />
+        <a href="/product/<?php echo $_smarty_tpl->tpl_vars['item']->value['id'];?>
+/"><?php echo $_smarty_tpl->tpl_vars['item']->value['name'];?>
+</a>
+    </div>
+    <?php if ($_smarty_tpl->getVariable('smarty')->value['foreach']['products']['iteration']%4==0) {?>
+        <div style="clear: both;"></div>
+    <?php }?>
+<?php } ?>
 
 
 

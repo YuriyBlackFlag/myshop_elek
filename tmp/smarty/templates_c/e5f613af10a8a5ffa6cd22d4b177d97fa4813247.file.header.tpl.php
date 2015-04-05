@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-04 20:35:10
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-05 15:34:40
          compiled from "..\views\default\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:11542551fac93ede463-29922514%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e5f613af10a8a5ffa6cd22d4b177d97fa4813247' => 
     array (
       0 => '..\\views\\default\\header.tpl',
-      1 => 1428168841,
+      1 => 1428237247,
       2 => 'file',
     ),
   ),
@@ -25,7 +25,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_551fac940c4eb4_21796796')) {function content_551fac940c4eb4_21796796($_smarty_tpl) {?><!doctype HTML>
-<html xmlns="http://www.w3.org/1999/html">
+<html>
 <head>
     <meta charset ='utf-8' />
     <title><?php echo $_smarty_tpl->tpl_vars['pageTitle']->value;?>
@@ -43,6 +43,6 @@ css/main.css" type="text/css" />
 
 
 <div id="centerColumn">
-    CenterColumn
+
 
 <?php }} ?>
