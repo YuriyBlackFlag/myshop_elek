@@ -5,7 +5,7 @@
         <div>
                 <img src="/www/images/products/{$resProduct['image']}" width="500"  /><br />
             Цена {$resProduct['price']} UAH
-                <a id="addCart_{$resProduct['id']}" href="#" onclick="addToCart({$resProduct['id']}); return false;">Добавить в корзину</a>
+                <a id="addCart_{$resProduct['id']}" href="#" onclick="addToCart({$resProduct['id']}); return false; alt="Добавлено в корзину">Добавить в корзину</a>
             <p>Описание <br />
                 {$resProduct['description']}
             </p>

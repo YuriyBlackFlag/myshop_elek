@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-09 10:32:41
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-09 10:56:09
          compiled from "..\views\default\product.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2186155241649531161-37498426%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '1ca4200caec7cef14b1176481d0bfd2c480f07ba' => 
     array (
       0 => '..\\views\\default\\product.tpl',
-      1 => 1428564655,
+      1 => 1428566159,
       2 => 'file',
     ),
   ),
@@ -35,7 +35,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
  UAH
                 <a id="addCart_<?php echo $_smarty_tpl->tpl_vars['resProduct']->value['id'];?>
 " href="#" onclick="addToCart(<?php echo $_smarty_tpl->tpl_vars['resProduct']->value['id'];?>
-); return false;">Добавить в корзину</a>
+); return false; alt="Добавлено в корзину">Добавить в корзину</a>
             <p>Описание <br />
                 <?php echo $_smarty_tpl->tpl_vars['resProduct']->value['description'];?>
 
