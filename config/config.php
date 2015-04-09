@@ -33,4 +33,3 @@ $smarty->setCacheDir('../tmp/smarty/cache');
 $smarty->setConfigDir('../library/Smarty/configs');
 
 $smarty->assign('templateWebPath', TemplateWebPath);
-//<

@@ -1,5 +1,13 @@
 <?php
 
+session_start();//стартуем сессию
+
+//Если в сессии нет массива корзины , создаем его
+if(! isset($_SESSION['cart'])){
+    $_SESSION['cart'] = array();
+}
+
+
 include_once '../config/config.php';        // Инициализация настроек
 include_once '../config/db.php';        // Инициализация базы данных
 include_once '../library/mainFunctions.php'; // Основные функции
