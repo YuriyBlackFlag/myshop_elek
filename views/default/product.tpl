@@ -5,7 +5,11 @@
         <div>
                 <img src="/www/images/products/{$resProduct['image']}" width="500"  /><br />
             Цена {$resProduct['price']} UAH
-                <a id="addCart_{$resProduct['id']}" href="#" onclick="addToCart({$resProduct['id']}); return false; alt="Добавлено в корзину">Добавить в корзину</a>
+            <a id="removeCart_{$resProduct['id']}" {if ! $itemInCart} class="hideme"{/if} href="#" onClick="removeFromCart({$resProduct['id']}); return false;"
+               alt="Удалить из корзины">Удалить из корзины</a>
+                <a id="addCart_{$resProduct['id']}" {if $itemInCart} class="hideme"{/if} href="#" onClick="addToCart({$resProduct['id']}); return false;"
+                        alt="Добавить в корзину">Добавить в корзину</a>
+
             <p>Описание <br />
                 {$resProduct['description']}
             </p>

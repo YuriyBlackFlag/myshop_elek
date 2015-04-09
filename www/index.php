@@ -18,6 +18,9 @@ $controllerName = isset($_GET['controller']) ? ucfirst($_GET['controller']) : 'I
 // определяем с какой функцией будем работать
 $actionName = isset($_GET['action']) ? $_GET['action'] : 'index';
 
+//Количество элементов в корзине; инициализация переменной в шаблонизаторе
+$smarty->assign('cartCntItems', count($_SESSION['cart']));
+
 loadPage($smarty, $controllerName, $actionName);
 
 
