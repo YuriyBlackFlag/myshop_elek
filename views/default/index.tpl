@@ -3,7 +3,7 @@
 {foreach $resProducts as $item}
     <div id="main">
         <a  href="/product/{$item['id']}/">
-            <img src="../www/images/products/{$item['image']}" width="120" />
+            <img src="../www/images/products/{$item['image']}" width="140" />
         </a><br />
         <a href="/product/{$item['id']}/">{$item['name']}</a>
     </div>

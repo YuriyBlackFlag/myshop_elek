@@ -40,11 +40,28 @@ function getAllMainCatsWithChildren(){
     while($row = mysqli_fetch_assoc($res)){
         $resChildren = getChildrenForCat($row['id']);
         if($resChildren){
-            $row['children'] =$resChildren;
+            $row['children'] = $resChildren;
         }
 
         $smartyRes[] = $row;
 
     }
         return $smartyRes;
+}
+
+/**
+ * Получение данныых категории по id
+ * @param $catId  ID категории
+ * @return array|null - строка категории
+ */
+
+function getCatById($catId){
+    $catId = intval($catId);
+    $sql = "SELECT *
+            FROM categories
+            WHERE id = '{$catId}'";
+    global $link;
+    $res = mysqli_query($link, $sql);
+
+    return mysqli_fetch_assoc($res);
 }

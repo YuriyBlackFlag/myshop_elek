@@ -21,7 +21,7 @@ header{
 #leftColumn{
     width: 180px;
     float: left;
-    margin-left: 100px;
+    margin-left: 160px;
     position: absolute;
 }
 
@@ -29,7 +29,7 @@ header{
     padding-bottom: 20px;
 }
 
-span{
+span {
     font-size: 90%;
 }
 
@@ -44,6 +44,10 @@ span{
 
 footer{
     clear: both;
+    margin-left: 160px;
+    margin-top: 420px;
+    max-width: 980px;
+    position: relative;
 }
 
 .menuCaption{
@@ -64,8 +68,14 @@ a:hover{
 
 #main{
     float: left;
-    padding: 10px 50px 40px 10px;
+    padding: 10px 30px 40px 10px;
+    width: 150px;
 }
 #bot{
     clear: both;
+}
+
+div.text{
+    font-size: 1.5em;
+    font-weight: 400;
 }

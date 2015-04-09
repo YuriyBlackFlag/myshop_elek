@@ -7,7 +7,7 @@
 </head>
 <body>
 <header>
-    <h1>Електрончик </br> <span>интернет магазин нужных вещей</span></h1>
+    <h1>Электрончик </br> <span>интернет магазин нужных вещей</span></h1>
 </header>
 
 {include file='leftcolumn.tpl'}

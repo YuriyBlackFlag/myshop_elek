@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-05 15:34:40
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-05 16:38:56
          compiled from "..\views\default\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:11542551fac93ede463-29922514%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e5f613af10a8a5ffa6cd22d4b177d97fa4813247' => 
     array (
       0 => '..\\views\\default\\header.tpl',
-      1 => 1428237247,
+      1 => 1428241134,
       2 => 'file',
     ),
   ),
@@ -35,7 +35,7 @@ css/main.css" type="text/css" />
 </head>
 <body>
 <header>
-    <h1>Електрончик </br> <span>интернет магазин нужных вещей</span></h1>
+    <h1>Электрончик </br> <span>интернет магазин нужных вещей</span></h1>
 </header>
 
 <?php echo $_smarty_tpl->getSubTemplate ('leftcolumn.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
