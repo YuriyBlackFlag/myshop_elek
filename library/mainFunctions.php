@@ -64,7 +64,11 @@ function createSmartyResArray($res){
     return $smartyRes;
 }
 
-
+function redirect($url){
+    if(!$url) $url = '/';
+    header("location: {$url} ");
+    exit;
+}
 
 
 

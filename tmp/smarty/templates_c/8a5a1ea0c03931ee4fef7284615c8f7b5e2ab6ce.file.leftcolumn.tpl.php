@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-10 12:44:47
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-10 20:03:24
          compiled from "..\views\default\leftcolumn.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:5783551fac94165156-62660367%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8a5a1ea0c03931ee4fef7284615c8f7b5e2ab6ce' => 
     array (
       0 => '..\\views\\default\\leftcolumn.tpl',
-      1 => 1428659076,
+      1 => 1428685401,
       2 => 'file',
     ),
   ),
@@ -52,6 +52,11 @@ $_smarty_tpl->tpl_vars['itemChild']->_loop = true;
                 <?php } ?>
             <?php }?>
         <?php } ?>
+    </div>
+
+    <div id="userBox" class="hideme">
+        Вы: <a href="#" id="userLink"></a><br />
+        <a href="/user/logout/" onclick="logout();">Выход</a>
     </div>
 
     <div id="registerBox">
