@@ -14,7 +14,7 @@
  * @return array массив данных нового пользователя
  */
 
-function registerNewUser($email, $pdwMD5, $name, $phone, $adress){
+function registerNewUser($email, $pwdMD5, $name, $phone, $adress){
     global $link;
     $email   = htmlspecialchars(mysqli_real_escape_string($link, $email));
     $name    = htmlspecialchars(mysqli_real_escape_string($link, $name));
@@ -73,3 +73,21 @@ function checkRegisterParams($email, $pwd)
     return $res;
 }
 
+
+/**
+ * Проверка почты (есть ли email адрес в БД)
+ *
+ * @param string $email
+ * @return array  массив - строка из таблицы users, либо пустой массив
+ */
+function checkUserEmail($email)
+{
+    global $link;
+    $email = mysqli_real_escape_string($link, $email);
+    $sql = "SELECT id FROM users WHERE email = '{$email}'";
+
+    $res = mysqli_query($link, $sql);
+    $res = createSmartyResArray($res);
+
+    return $res;
+}
