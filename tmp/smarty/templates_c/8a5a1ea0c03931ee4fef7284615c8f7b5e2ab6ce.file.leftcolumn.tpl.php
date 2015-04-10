@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-09 21:08:24
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-10 12:44:47
          compiled from "..\views\default\leftcolumn.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:5783551fac94165156-62660367%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8a5a1ea0c03931ee4fef7284615c8f7b5e2ab6ce' => 
     array (
       0 => '..\\views\\default\\leftcolumn.tpl',
-      1 => 1428602902,
+      1 => 1428659076,
       2 => 'file',
     ),
   ),
@@ -53,7 +53,19 @@ $_smarty_tpl->tpl_vars['itemChild']->_loop = true;
             <?php }?>
         <?php } ?>
     </div>
-        <div class="menuCaption">Корзина</div>
+
+    <div id="registerBox">
+        <div class="menuCaption showHidden" onclick="showRegisterBox();">Регистрация</div>
+        <div id="registerBoxHidden">
+            email:<br />
+            <input type="text" id="email" name="email" value=""/><br />
+            пароль: <br />
+            <input type="password" id="pwd" name="pwd" value=""/><br />
+            <input type="button" onclick="registerNewUser();" value="Зарегистрироваться"/>
+        </div>
+    </div>
+
+    <div class="menuCaption">Корзина</div>
         <a href="/cart/" title="Перейти в корзину">В корзине</a>
         <span id="cartCntItems">
             <?php if ($_smarty_tpl->tpl_vars['cartCntItems']->value>0) {

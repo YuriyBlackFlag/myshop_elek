@@ -35,6 +35,26 @@ function addtocartAction(){
     echo json_encode($resData);
 }
 
+/**
+ * Формирование страницы корзины
+ * @link /cart/
+ */
+function indexAction($smarty){
+
+    $itemsIds = isset($_SESSION['cart']) ? $_SESSION['cart'] : array();
+
+    $resCategories = getAllMainCatsWithChildren();
+    $resProducts = getProductsFromArray($itemsIds);
+
+    $smarty->assign('pageTitle', 'Корзина');
+    $smarty->assign('resCategories', $resCategories);
+    $smarty->assign('resProducts', $resProducts);
+
+    loadTemplate($smarty, 'header');
+    loadTemplate($smarty, 'cart');
+    loadTemplate($smarty, 'footer');
+}
+
 
 /**
  * Удаление продукта из корзины

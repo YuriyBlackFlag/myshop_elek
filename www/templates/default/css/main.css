@@ -45,9 +45,9 @@ span {
 footer{
     clear: both;
     margin-left: 160px;
-    margin-top: 420px;
+    margin-top: 480px;
     max-width: 980px;
-    position: relative;
+    position: absolute;
 }
 
 .menuCaption{
