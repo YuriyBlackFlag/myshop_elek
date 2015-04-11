@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-10 20:03:24
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-11 15:44:32
          compiled from "..\views\default\leftcolumn.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:5783551fac94165156-62660367%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8a5a1ea0c03931ee4fef7284615c8f7b5e2ab6ce' => 
     array (
       0 => '..\\views\\default\\leftcolumn.tpl',
-      1 => 1428685401,
+      1 => 1428756268,
       2 => 'file',
     ),
   ),
@@ -22,6 +22,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'resCategories' => 0,
     'item' => 0,
     'itemChild' => 0,
+    'arUser' => 0,
     'cartCntItems' => 0,
   ),
   'has_nocache_code' => false,
@@ -54,9 +55,24 @@ $_smarty_tpl->tpl_vars['itemChild']->_loop = true;
         <?php } ?>
     </div>
 
+    <?php if (isset($_smarty_tpl->tpl_vars['arUser']->value)) {?>
+    <div id="userBox">
+        Вы: <a href="/user/" id="userLink"><?php echo $_smarty_tpl->tpl_vars['arUser']->value['displayName'];?>
+</a><br/>
+        <a href="/user/logout/" onclick="logout();">Выход</a>
+    </div>
+
+    <?php } else { ?>
     <div id="userBox" class="hideme">
         Вы: <a href="#" id="userLink"></a><br />
         <a href="/user/logout/" onclick="logout();">Выход</a>
+    </div>
+
+    <div id="loginBox">
+        <div class="menuCaption">Авторизация</div>
+        <input type="text" id="loginEmail" name="loginEmail" value=""/><br />
+        <input type="password" id="loginPwd" name="loginPwd" value=""/><br />
+        <input type="button" onclick="login();" value="Войти"/>
     </div>
 
     <div id="registerBox">
@@ -69,7 +85,7 @@ $_smarty_tpl->tpl_vars['itemChild']->_loop = true;
             <input type="button" onclick="registerNewUser();" value="Зарегистрироваться"/>
         </div>
     </div>
-
+    <?php }?>
     <div class="menuCaption">Корзина</div>
         <a href="/cart/" title="Перейти в корзину">В корзине</a>
         <span id="cartCntItems">

@@ -18,6 +18,10 @@ $controllerName = isset($_GET['controller']) ? ucfirst($_GET['controller']) : 'I
 // определяем с какой функцией будем работать
 $actionName = isset($_GET['action']) ? $_GET['action'] : 'index';
 
+//если в сессии есть данные о пользователе , передаем их в шаблон
+if(isset($_SESSION['user'])){
+    $smarty->assign('arUser',$_SESSION['user']);
+}
 //Количество элементов в корзине; инициализация переменной в шаблонизаторе
 $smarty->assign('cartCntItems', count($_SESSION['cart']));
 

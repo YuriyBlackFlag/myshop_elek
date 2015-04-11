@@ -91,3 +91,32 @@ function checkUserEmail($email)
 
     return $res;
 }
+
+/**
+ * Авторизация пользователя
+ *
+ * @param string $email почта (логин)
+ * @param string $pwd пароль
+ * @return array массив данных пользователя
+ */
+function loginUser($email, $pwd)
+{
+    global $link;
+    $email   = htmlspecialchars(mysqli_real_escape_string($link, $email));
+    $pwd     = md5($pwd);
+
+    $sql = "SELECT * FROM users
+            WHERE (`email` = '{$email}' and `pwd` = '{$pwd}')
+            LIMIT 1";
+
+    $res = mysqli_query($link, $sql);
+
+    $res = createSmartyResArray($res);
+    if(isset($res[0])){
+        $res['success'] = 1;
+    } else {
+        $res['success'] = 0;
+    }
+
+    return $res;
+}
