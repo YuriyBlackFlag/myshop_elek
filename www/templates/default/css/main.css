@@ -89,3 +89,16 @@ div.text{
 #registerBoxHidden{
     display: none;
 }
+span.bolder{
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+#userTable{
+    border: 0;
+    border-spacing: 10px 10px;
+}
+
+#userTable > td{
+     padding: 10px;
+}

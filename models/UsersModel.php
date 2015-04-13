@@ -120,3 +120,47 @@ function loginUser($email, $pwd)
 
     return $res;
 }
+
+
+/**
+ * Изменение данных пользователя
+ *
+ * @param string $name имя пользователя
+ * @param string $phone телефон
+ * @param string $adress адрес
+ * @param string $pwd новый пароль
+ * @param string $curPwd текущий пароль
+ * @return boolean TRUE в случае успеха
+ */
+function updateUserData($name, $phone, $adress, $pwd, $curPwd)
+{
+    global $link;
+    $email   = htmlspecialchars(mysqli_real_escape_string($link, $_SESSION['user']['email']));
+    $name    = htmlspecialchars(mysqli_real_escape_string($link, $name));
+    $phone   = htmlspecialchars(mysqli_real_escape_string($link, $phone));
+    $adress  = htmlspecialchars(mysqli_real_escape_string($link, $adress));
+    $pwd = trim($pwd);
+
+    $newPwd = null;
+    $newPwd = md5($pwd);
+
+
+    $sql = "UPDATE users
+            SET ";
+
+    if($newPwd){
+        $sql .= "`pwd` = '{$newPwd}', ";
+    }
+
+    $sql .= " `name` = '{$name}',
+            `phone` = '{$phone}',
+            `adress` = '{$adress}'
+           WHERE
+            `email` = '{$email}' AND `pwd` = '{$curPwd}'
+           LIMIT 1";
+
+    $res = mysqli_query($link, $sql);
+
+
+    return $res;
+}

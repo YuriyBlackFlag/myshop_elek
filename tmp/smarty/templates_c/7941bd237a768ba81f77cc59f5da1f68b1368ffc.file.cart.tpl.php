@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-10 11:19:21
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-13 18:54:44
          compiled from "..\views\default\cart.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:272405527871d7e8182-63959337%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7941bd237a768ba81f77cc59f5da1f68b1368ffc' => 
     array (
       0 => '..\\views\\default\\cart.tpl',
-      1 => 1428653959,
+      1 => 1428940480,
       2 => 'file',
     ),
   ),
@@ -32,6 +32,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     В корзине пусто.
 
 <?php } else { ?>
+    <form action="/cart/order/" method="POST">
     <h3>Данные заказа</h3>
     <table>
         <tr>
@@ -45,7 +46,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 Количество
             </td>
             <td>
-                Цена за еденицу
+                Цена за единицу
             </td>
             <td>
                 Цена
@@ -111,5 +112,6 @@ $_smarty_tpl->tpl_vars['item']->_loop = true;
         <?php } ?>
 
     </table>
-
+        <input type="submit" value="Оформить заказ"/>
+    </form>
 <?php }?><?php }} ?>

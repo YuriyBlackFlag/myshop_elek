@@ -161,3 +161,40 @@ function showRegisterBox(){
         $('#registerBoxHidden').hide();
     }
 }
+
+/**
+ * Обновление данных пользователя
+ *
+ */
+function updateUserData(){
+    console.log("js - updateUserData()");
+    var phone  = $('#newPhone').val();
+    var adress = $('#newAdress').val();
+    var pwd   = $('#newPwd').val();
+    var curPwd = $('#curPwd').val();
+    var name   = $('#newName').val();
+
+    var postData = {phone: phone,
+        adress: adress,
+        pwd: pwd,
+        curPwd: curPwd,
+        name: name};
+
+    $.ajax({
+        type: 'POST',
+        async: false,
+        url: "/user/update/",
+        data: postData,
+        dataType: 'json',
+        success: function(data){
+            if(data['success']){
+                $('#userLink').html(data['userName']);
+                alert(data['message']);
+            } else {
+                alert(data['message']);
+            }
+        }
+
+    } );
+
+}
