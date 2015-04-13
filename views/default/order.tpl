@@ -4,11 +4,13 @@
 <form id="frmOrder" action="/cart/saveorder/" method="POST">
     <table>
         <thead>
+        <tr>
             <th>№</th>
             <th>Наименование</th>
             <th>Количество</th>
             <th>Цена за единицу</th>
             <th>Стоимость</th>
+        </tr>
         </thead>
         <tbody>
         {foreach $resProducts as $item}
@@ -42,7 +44,7 @@
 
     {if isset($arUser)}
         {$buttonClass = ""}
-        <h2>Данные заказчика</h2>
+        <h3>Данные заказчика</h3>
         <div id="orderUserInfoBox" {$buttonClass}>
             {$name = $arUser['name']}
             {$phone = $arUser['phone']}
