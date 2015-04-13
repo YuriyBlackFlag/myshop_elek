@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-11 15:44:32
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-13 20:57:38
          compiled from "..\views\default\leftcolumn.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:5783551fac94165156-62660367%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '8a5a1ea0c03931ee4fef7284615c8f7b5e2ab6ce' => 
     array (
       0 => '..\\views\\default\\leftcolumn.tpl',
-      1 => 1428756268,
+      1 => 1428947755,
       2 => 'file',
     ),
   ),
@@ -23,6 +23,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'item' => 0,
     'itemChild' => 0,
     'arUser' => 0,
+    'hideLoginBox' => 0,
     'cartCntItems' => 0,
   ),
   'has_nocache_code' => false,
@@ -68,6 +69,7 @@ $_smarty_tpl->tpl_vars['itemChild']->_loop = true;
         <a href="/user/logout/" onclick="logout();">Выход</a>
     </div>
 
+    <?php if (!isset($_smarty_tpl->tpl_vars['hideLoginBox']->value)) {?>
     <div id="loginBox">
         <div class="menuCaption">Авторизация</div>
         <input type="text" id="loginEmail" name="loginEmail" value=""/><br />
@@ -85,6 +87,7 @@ $_smarty_tpl->tpl_vars['itemChild']->_loop = true;
             <input type="button" onclick="registerNewUser();" value="Зарегистрироваться"/>
         </div>
     </div>
+        <?php }?>
     <?php }?>
     <div class="menuCaption">Корзина</div>
         <a href="/cart/" title="Перейти в корзину">В корзине</a>

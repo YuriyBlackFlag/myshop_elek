@@ -26,6 +26,7 @@
         <a href="/user/logout/" onclick="logout();">Выход</a>
     </div>
 
+    {if ! isset($hideLoginBox)}
     <div id="loginBox">
         <div class="menuCaption">Авторизация</div>
         <input type="text" id="loginEmail" name="loginEmail" value=""/><br />
@@ -43,6 +44,7 @@
             <input type="button" onclick="registerNewUser();" value="Зарегистрироваться"/>
         </div>
     </div>
+        {/if}
     {/if}
     <div class="menuCaption">Корзина</div>
         <a href="/cart/" title="Перейти в корзину">В корзине</a>
