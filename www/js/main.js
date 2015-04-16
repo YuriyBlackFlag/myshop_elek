@@ -219,3 +219,16 @@ function saveOrder(){
         }
     });
 }
+
+/**
+ * Показывать или прятать данные о заказе
+ *
+ */
+function showProducts(id){
+    var objName = "#purchasesForOrderId_" + id;
+    if( $(objName).css('display') != 'table-row' ) {
+        $(objName).show();
+    } else {
+        $(objName).hide();
+    }
+}

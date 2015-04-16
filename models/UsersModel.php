@@ -164,3 +164,17 @@ function updateUserData($name, $phone, $adress, $pwd, $curPwd)
 
     return $res;
 }
+
+
+/**
+ * Получить данные заказа текущего пользователя
+ *
+ * @return array массив заказов с привязкой к продуктам
+ */
+function getCurUserOrders()
+{
+    $userId = isset($_SESSION['user']['id']) ? $_SESSION['user']['id'] : 0;
+    $res = getOrdersWithProductsByUser($userId);
+
+    return $res;
+}

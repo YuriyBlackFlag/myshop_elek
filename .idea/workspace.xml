@@ -32,8 +32,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/default/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1220" max-vertical-offset="1870">
-              <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1853">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -42,8 +42,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3174" max-vertical-offset="3808">
-              <caret line="220" column="1" selection-start-line="220" selection-start-column="1" selection-end-line="220" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3395" max-vertical-offset="4029">
+              <caret line="233" column="1" selection-start-line="233" selection-start-column="1" selection-end-line="233" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -52,9 +52,48 @@
       <file leaf-file-name="user.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/default/user.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="646">
-              <caret line="3" column="20" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="20" />
+            <state vertical-scroll-proportion="-19.461538" vertical-offset="871" max-vertical-offset="1547">
+              <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Admin Controller.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controllers/Admin Controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.1574074" vertical-offset="0" max-vertical-offset="540">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/UserController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.884615" vertical-offset="1874" max-vertical-offset="3434">
+              <caret line="133" column="36" selection-start-line="133" selection-start-column="36" selection-end-line="133" selection-end-column="36" />
+              <folding>
+                <element signature="e#6#48#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UsersModel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/UsersModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-18.153847" vertical-offset="2537" max-vertical-offset="3145">
+              <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+              <folding>
+                <element signature="e#6#41#0#PHP" expanded="true" />
+                <marker date="1429171461773" expanded="true" signature="737:890" placeholder="INSERT INTO ..." />
+                <marker date="1429171461773" expanded="true" signature="963:1051" placeholder="SELECT * FRO..users..." />
+                <marker date="1429171461773" expanded="true" signature="2030:2075" placeholder="SELECT id FR..users..." />
+                <marker date="1429171461773" expanded="true" signature="2494:2595" placeholder="SELECT * FRO..users..." />
+                <marker date="1429171461773" expanded="true" signature="3548:3576" placeholder="UPDATE users..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,12 +101,13 @@
       <file leaf-file-name="OrdersModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/OrdersModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.076923" vertical-offset="429" max-vertical-offset="1037">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state vertical-scroll-proportion="-0.65384614" vertical-offset="289" max-vertical-offset="1496">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
                 <element signature="e#6#52#0#PHP" expanded="true" />
-                <marker date="1429128113462" expanded="true" signature="597:802" placeholder="INSERT INTO ..." />
-                <marker date="1429128113462" expanded="true" signature="929:987" placeholder="SELECT id FR..orders..." />
+                <marker date="1429171640661" expanded="true" signature="597:802" placeholder="INSERT INTO ..." />
+                <marker date="1429171640661" expanded="true" signature="929:987" placeholder="SELECT id FR..orders..." />
+                <marker date="1429171640661" expanded="true" signature="1543:1616" placeholder="SELECT * FRO..orders..." />
               </folding>
             </state>
           </provider>
@@ -88,12 +128,13 @@
       <file leaf-file-name="PurchasesModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/PurchasesModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.461538" vertical-offset="38" max-vertical-offset="646">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="-19.461538" vertical-offset="225" max-vertical-offset="833">
+              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
               <folding>
                 <element signature="e#7#60#0#PHP" expanded="true" />
-                <marker date="1429128145554" expanded="true" signature="322:393" placeholder="INSERT INTO ..." />
-                <marker date="1429128145554" expanded="true" signature="137:208" placeholder="INSERT INTO ..." />
+                <marker date="1429172026584" expanded="true" signature="322:393" placeholder="INSERT INTO ..." />
+                <marker date="1429172026584" expanded="true" signature="137:208" placeholder="INSERT INTO ..." />
+                <marker date="1429172026584" expanded="true" signature="818:976" placeholder="SELECT `pe`...." />
               </folding>
             </state>
           </provider>
@@ -104,28 +145,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="1700">
               <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CartController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/CartController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8111111" vertical-offset="2792" max-vertical-offset="3400">
-              <caret line="200" column="44" selection-start-line="200" selection-start-column="44" selection-end-line="200" selection-end-column="44" />
-              <folding>
-                <element signature="e#5279#5441#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/default/order.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1853">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -154,17 +173,18 @@
         <option value="$PROJECT_DIR$/models/ProductsModel.php" />
         <option value="$PROJECT_DIR$/library/mainFunctions.php" />
         <option value="$PROJECT_DIR$/www/index.php" />
-        <option value="$PROJECT_DIR$/models/UsersModel.php" />
-        <option value="$PROJECT_DIR$/www/templates/default/css/main.css" />
-        <option value="$PROJECT_DIR$/views/default/user.tpl" />
-        <option value="$PROJECT_DIR$/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/views/default/cart.tpl" />
         <option value="$PROJECT_DIR$/views/default/order.tpl" />
         <option value="$PROJECT_DIR$/views/default/leftcolumn.tpl" />
-        <option value="$PROJECT_DIR$/www/js/main.js" />
         <option value="$PROJECT_DIR$/controllers/CartController.php" />
+        <option value="$PROJECT_DIR$/models/UsersModel.php" />
         <option value="$PROJECT_DIR$/models/OrdersModel.php" />
         <option value="$PROJECT_DIR$/models/PurchasesModel.php" />
+        <option value="$PROJECT_DIR$/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/www/js/main.js" />
+        <option value="$PROJECT_DIR$/www/templates/default/css/main.css" />
+        <option value="$PROJECT_DIR$/views/default/user.tpl" />
+        <option value="$PROJECT_DIR$/controllers/Admin Controller.php" />
       </list>
     </option>
   </component>
@@ -524,24 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/default/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1220" max-vertical-offset="1870">
-          <caret line="98" column="27" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6942446" vertical-offset="2589" max-vertical-offset="3298">
-          <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#48#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/default/cart.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06077348" vertical-offset="664" max-vertical-offset="1275">
@@ -576,21 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/UsersModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93703705" vertical-offset="293" max-vertical-offset="2907">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding>
-            <element signature="e#6#41#0#PHP" expanded="true" />
-            <marker date="1428771106380" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1428771106380" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
-            <marker date="1428771106380" expanded="true" signature="-1:-1" placeholder="SELECT id FR..users..." />
-            <marker date="1428771106380" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
-            <marker date="1428771106380" expanded="true" signature="-1:-1" placeholder="UPDATE users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/default/order.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1853">
@@ -599,53 +586,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/default/user.tpl">
+    <entry file="file://$PROJECT_DIR$/controllers/CartController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="646">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="20" />
-          <folding />
+        <state vertical-scroll-proportion="-16.192308" vertical-offset="2792" max-vertical-offset="3400">
+          <caret line="199" column="30" selection-start-line="199" selection-start-column="30" selection-end-line="199" selection-end-column="30" />
+          <folding>
+            <element signature="e#5279#5441#0#PHP" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/js/main.js">
+    <entry file="file://$PROJECT_DIR$/models/UsersModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3174" max-vertical-offset="3808">
-          <caret line="220" column="1" selection-start-line="220" selection-start-column="1" selection-end-line="220" selection-end-column="1" />
-          <folding />
+        <state vertical-scroll-proportion="-18.153847" vertical-offset="2537" max-vertical-offset="3145">
+          <caret line="177" column="0" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#41#0#PHP" expanded="true" />
+            <marker date="1429171461773" expanded="true" signature="737:890" placeholder="INSERT INTO ..." />
+            <marker date="1429171461773" expanded="true" signature="963:1051" placeholder="SELECT * FRO..users..." />
+            <marker date="1429171461773" expanded="true" signature="2030:2075" placeholder="SELECT id FR..users..." />
+            <marker date="1429171461773" expanded="true" signature="2494:2595" placeholder="SELECT * FRO..users..." />
+            <marker date="1429171461773" expanded="true" signature="3548:3576" placeholder="UPDATE users..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/OrdersModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.076923" vertical-offset="429" max-vertical-offset="1037">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state vertical-scroll-proportion="-0.65384614" vertical-offset="289" max-vertical-offset="1496">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
             <element signature="e#6#52#0#PHP" expanded="true" />
-            <marker date="1429128113462" expanded="true" signature="597:802" placeholder="INSERT INTO ..." />
-            <marker date="1429128113462" expanded="true" signature="929:987" placeholder="SELECT id FR..orders..." />
+            <marker date="1429171640661" expanded="true" signature="597:802" placeholder="INSERT INTO ..." />
+            <marker date="1429171640661" expanded="true" signature="929:987" placeholder="SELECT id FR..orders..." />
+            <marker date="1429171640661" expanded="true" signature="1543:1616" placeholder="SELECT * FRO..orders..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.884615" vertical-offset="1874" max-vertical-offset="3434">
+          <caret line="133" column="36" selection-start-line="133" selection-start-column="36" selection-end-line="133" selection-end-column="36" />
+          <folding>
+            <element signature="e#6#48#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/PurchasesModel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.461538" vertical-offset="38" max-vertical-offset="646">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="-19.461538" vertical-offset="225" max-vertical-offset="833">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="e#7#60#0#PHP" expanded="true" />
-            <marker date="1429128145554" expanded="true" signature="322:393" placeholder="INSERT INTO ..." />
-            <marker date="1429128145554" expanded="true" signature="137:208" placeholder="INSERT INTO ..." />
+            <marker date="1429172026584" expanded="true" signature="322:393" placeholder="INSERT INTO ..." />
+            <marker date="1429172026584" expanded="true" signature="137:208" placeholder="INSERT INTO ..." />
+            <marker date="1429172026584" expanded="true" signature="818:976" placeholder="SELECT `pe`...." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/CartController.php">
+    <entry file="file://$PROJECT_DIR$/www/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8111111" vertical-offset="2792" max-vertical-offset="3400">
-          <caret line="200" column="44" selection-start-line="200" selection-start-column="44" selection-end-line="200" selection-end-column="44" />
-          <folding>
-            <element signature="e#5279#5441#0#PHP" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="3395" max-vertical-offset="4029">
+          <caret line="233" column="1" selection-start-line="233" selection-start-column="1" selection-end-line="233" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/default/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="697" max-vertical-offset="1853">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default/user.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.461538" vertical-offset="871" max-vertical-offset="1547">
+          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/Admin Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1574074" vertical-offset="0" max-vertical-offset="540">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
