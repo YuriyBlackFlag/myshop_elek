@@ -1,0 +1,28 @@
+{* Шаблон для работы с категориями*}
+<h2>Изменение категорий товаров</h2>
+
+<table border="1" cellpadding="1" cellspacing="1" width="80%">
+    <tr>
+        <th>№</th>
+        <th>ID</th>
+        <th>Название</th>
+        <th>Родительская категория</th>
+        <th>Действие</th>
+    </tr>
+    {foreach $resCategories as $item}
+        <tr>
+            <td>{$item@iteration}</td>
+            <td>{$item['id']}</td>
+            <td><input type="edit" id="itemName_{$item['id']}" value="{$item['name']}"/></td>
+            <td>
+                <select id="parentId_{$item['id']}">
+                    <option value="0">Главная категория
+                    {foreach $resMainCategories as $mainItem}
+                    <option value="{$mainItem['id']}" {if $item['parent_id'] == $mainItem['id']} selected {/if}>{$mainItem['name']}
+                    {/foreach}
+                </select>
+            </td>
+            <td><input type="button" value="Сохранить" onclick="updateCat({$item['id']});"/></td>
+        </tr>
+    {/foreach}
+</table>

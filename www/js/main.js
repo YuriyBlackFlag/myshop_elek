@@ -232,3 +232,44 @@ function showProducts(id){
         $(objName).hide();
     }
 }
+
+function newCategory(){
+    var postData = getData('#blockNewCategory');
+
+    $.ajax({
+        type: 'POST',
+        async: false,
+        url: "/admin/addnewcat/",
+        data: postData,
+        dataType: 'json',
+        success: function(data){
+            if(data['success']){
+                alert(data['message']);
+                $('#newCategoryName').val('');
+            } else {
+                alert(data['message']);
+            }
+        }
+    });
+}
+
+/**
+ *
+ * @param itemId
+ */
+function updateCat(itemId){
+    var parentId = $('#parentId_' + itemId).val();
+    var newName = $('#itemName_' + itemId).val();
+    var postData = {itemId: itemId, parentId: parentId, newName: newName};
+
+    $.ajax({
+        type: 'POST',
+        async: false,
+        url: "/admin/updatecategory/",
+        data: postData,
+        dataType: 'json',
+        success: function (data) {
+            alert(data['message']);
+        }
+    });
+}

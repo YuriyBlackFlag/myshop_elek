@@ -5,24 +5,12 @@ body{
     font-size: 12px;
     line-height: 20px;
     margin: 0;
-    /*overflow: hidden;*/
+    overflow: hidden;
     padding: 0;
-
 }
-
 html {
     height: 100%;
-    /*margin-bottom: 1px;*/
-}
-
-#container{
-    width: 1000px;
-    margin: 0 auto;
-    background: url("/www/images/container_body.jpg") repeat scroll left top rgba(0, 0, 0, 0);
-}
-
-h1{
-    padding-top: 10px;
+    margin-bottom: 1px;
 }
 
 h3 {
@@ -38,24 +26,20 @@ img {
     display: none;
 }
 
-h1{
-    color: darkkhaki;
-    text-shadow: 1px 1px 1px black;
-}
-
 header{
-    height: 60px;
+    height: 70px;
     text-align: center;
-    margin: 0 auto;
-    border-bottom: 2px solid #bbbd91;
-    clear:both;
+    margin-bottom: 50px;
+    max-height: 100px;
+    margin-left: 100px;
+    max-width: 1140px;
+    padding-left: 20px;
 }
 
 #leftColumn{
-    width: 200px;
+    width: 180px;
     float: left;
-    padding-left: 20px;
-    min-height: 400px;
+    margin-left: 160px;
     position: absolute;
 }
 
@@ -67,26 +51,25 @@ span {
     font-size: 90%;
 }
 
+#bolder{
+    font-size: 110%;
+    font-weight: bold;
+}
+
 #centerColumn{
-    width: 740px;
-    max-width: 780px;
-    padding-left: 30px;
-    padding-top: 20px;
-    margin-left: 220px;
-    margin-top: -5px;
+    width: 800px;
+    max-width: 800px;
+    padding-left: 130px;
     float: left;
-    min-height: 500px;
     position: relative;
+    margin-left: 250px;
 }
 
 footer{
     clear: both;
-    margin: 0 auto;
-    /*margin-top: 500px;*/
-    width: 1000px;
-    border-top: 2px solid #bbbd91;
-    text-align: right;
-    background: url("/www/images/div-background.png") repeat-x scroll left bottom rgba(0, 0, 0, 0);
+    margin-left: 160px;
+    margin-top: 550px;
+    width: 980px;
 }
 
 .menuCaption{
@@ -94,25 +77,13 @@ footer{
     font-weight: bold;
 }
 
-.Caption{
-    padding: 3px;
-    font-weight: bold;
-    float: right;
-    margin-top: -60px;
-    color: #5b5b5b;
-
-}
-
 .cartBox{
     padding: 5px 0px 0px 5px;
 }
 
 a:link, a:visited {
-    color: #51615b;
-    display: block;
-    font-family: "BentonSansRegular";
-    font-size: 15px;
     font-weight: normal;
+    text-decoration: none;
 }
 a:hover {
     color: #f7960b;
@@ -128,13 +99,14 @@ a {
     color: #a10651;
     outline: medium none;
 }
+
 input.button {
     cursor: pointer;
 }
 
 #main{
     float: left;
-    padding: 5px 20px 20px 15px;
+    padding: 10px 30px 40px 10px;
     width: 150px;
 }
 #bot{
@@ -147,8 +119,9 @@ div.text{
 }
 
 .showHidden{
-    cursor: pointer;
     text-decoration: underline;
+    color: blue;
+    cursor: pointer;
 }
 
 #registerBoxHidden{
@@ -165,5 +138,5 @@ span.bolder{
 }
 
 #userTable > td{
-     padding: 10px;
+    padding: 10px;
 }

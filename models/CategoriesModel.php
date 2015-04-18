@@ -65,3 +65,78 @@ function getCatById($catId){
 
     return mysqli_fetch_assoc($res);
 }
+
+
+
+function getAllMainCategories(){
+    $sql = "SELECT *
+            FROM categories
+            WHERE parent_id = 0";
+    global $link;
+    $res = mysqli_query($link, $sql);
+
+    return createSmartyResArray($res);
+}
+
+/**
+ * Функция добавления категории в базу данных
+ * @param $catName
+ * @param int $catParentId
+ * @return int|string
+ */
+function insertCat($catName, $catParentId = 0){
+    $sql = "INSERT INTO
+            categories (`parent_id`, `name`)
+            VALUES ('{$catParentId}', '{$catName}')";
+
+    global $link;
+    mysqli_query($link, $sql);
+
+    $id = mysqli_insert_id($link);
+
+    return $id;
+}
+
+/**
+ * Функция вывода всех категорий
+ * @return array
+ */
+
+function getAllCategories(){
+    $sql = "SELECT *
+            FROM categories
+            ORDER BY  parent_id asc";
+    global $link;
+    $res = mysqli_query($link, $sql);
+
+    return createSmartyResArray($res);
+}
+
+
+/**
+ * функция обновления категорий
+ * @param $itemID
+ * @param int $parentID
+ * @param string $newName
+ */
+function updateCategoryData($itemId, $parentId = -1, $newName = ''){
+    $set = array();
+
+    if($newName){
+        $set[]= "`name` = '{$newName}'";
+    }
+
+    if($parentId > -1){
+        $set[]= "`parent_id` = '{$parentId}'";
+    }
+
+    $setSTR = implode($set, ", ");
+    $sql = "UPDATE categories
+            set {$setSTR}
+            WHERE  id = '{$itemId}'";
+
+    global $link;
+    $res = mysqli_query($link, $sql);
+
+    return $res;
+}
