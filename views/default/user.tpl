@@ -83,4 +83,5 @@
             </tr>
         {/foreach}
     </table>
+    <br/>
 {/if}

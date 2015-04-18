@@ -273,3 +273,65 @@ function updateCat(itemId){
         }
     });
 }
+
+/**
+ * Добавление нового товара
+ */
+function addProduct(){
+    var itemName = $('#newItemName').val();
+    var itemPrice = $('#newItemPrice').val();
+    var itemCatId = $('#newItemCatId').val();
+    var itemDesc = $('#newItemDesc').val();
+    var itemImage = $('#newItemImage').val();
+
+    var postData = {itemName: itemName, itemPrice: itemPrice, itemCatId: itemCatId, itemDesc: itemDesc, itemImage: itemImage };
+
+    $.ajax({
+        type: 'POST',
+        async: false,
+        url: "/admin/addproduct/",
+        data: postData,
+        dataType: 'json',
+        success: function (data) {
+            alert(data['message']);
+
+            if (data['success']){
+                $('#newItemName').val('');
+                $('#newItemPrice').val('');
+                $('#newItemCatId').val('');
+                $('#newItemDesc').val('');
+                $('#newItemImage').val('');
+            }
+
+        }
+    });
+}
+
+function updateProduct(itemId){
+    var itemName = $('#itemName_'+ itemId).val();
+    var itemPrice = $('#itemPrice_' + itemId).val();
+    var itemCatId = $('#itemCatId_'+ itemId).val();
+    var itemDesc = $('#itemDesc_'+ itemId).val();
+    var itemImage = $('#itemImage_'+ itemId).val();
+    var itemStatus = $('#itemStatus_'+ itemId).attr('checked');
+    if(! itemStatus){
+        itemStatus = 1
+    }else{
+        itemStatus = 0
+    }
+
+    var postData = {itemId: itemId, itemName: itemName, itemPrice: itemPrice, itemCatId: itemCatId, itemDesc: itemDesc,
+        itemImage: itemImage, itemStatus: itemStatus };
+
+    $.ajax({
+        type: 'POST',
+        async: false,
+        url: "/admin/upproduct/",
+        data: postData,
+        dataType: 'json',
+        success: function (data) {
+            alert(data['message']);
+        }
+    });
+}
+

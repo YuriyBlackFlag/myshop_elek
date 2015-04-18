@@ -84,7 +84,7 @@ function getAllMainCategories(){
  * @param int $catParentId
  * @return int|string
  */
-function insertCat($catName, $catParentId = 0){
+function insertCat($catName="Новая категория", $catParentId = 0){
     $sql = "INSERT INTO
             categories (`parent_id`, `name`)
             VALUES ('{$catParentId}', '{$catName}')";

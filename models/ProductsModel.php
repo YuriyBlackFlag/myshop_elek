@@ -75,3 +75,87 @@ function getProductsFromArray($itemsIds)
 
     return createSmartyResArray($res);
 }
+
+
+function getProducts()
+{
+    $sql = "SELECT *
+            FROM `products`
+            ORDER BY `category_id`";
+    global $link;
+    $res = mysqli_query($link, $sql);
+
+    return createSmartyResArray($res);
+}
+
+/**
+ * Добавление нового товара
+ * @param $itemName
+ * @param $itemPrice
+ * @param $itemDesc
+ * @param $itemCat
+ * @return bool|mysqli_result
+ */
+function insertProduct($itemName, $itemPrice, $itemDesc, $itemCat, $itemImage){
+    $sql = "INSERT INTO
+            products
+            SET
+            `name`= '{$itemName}',
+            `price`= '{$itemPrice}',
+            `description`= '{$itemDesc}',
+            `category_id`= '{$itemCat}',
+            `image` = '{$itemImage}';";
+
+    global $link;
+    $res = mysqli_query($link, $sql);
+    return $res;
+}
+
+
+/**
+ * @param $itemName
+ * @param $itemPrice
+ * @param $itemDesc
+ * @param $itemCat
+ * @param $itemImage
+ * @return bool|mysqli_result
+ */
+function updateProduct($itemId, $itemName,  $itemPrice, $itemDesc, $itemCat, $itemImage, $itemStatus, $itemImage)
+{
+    $set = array();
+
+    if ($itemName) {
+        $set[] = "`name` = '{$itemName}'";
+    }
+
+    if ($itemPrice > 0) {
+        $set[] = "`price` = '{$itemPrice}'";
+    }
+    if ($itemStatus !== null) {
+        $set[] = "`status` = '{$itemStatus}'";
+    }
+
+    if ($itemDesc) {
+        $set[] = "`description` = '{$itemDesc}'";
+    }
+
+    if ($itemCat) {
+        $set[] = "`category_id` = '{$itemCat}'";
+    }
+
+    if ($itemImage) {
+        $set[] = "`image` = '{$itemImage}'";
+    }
+
+    $setSTR = implode($set, ", ");
+
+
+    $sql = "UPDATE
+            products
+            SET {$setSTR}
+            WHERE `id` = '{$itemId}'";
+
+    global $link;
+    $res = mysqli_query($link, $sql);
+    return $res;
+}

@@ -2,10 +2,13 @@
 
     <div id="leftMenu">
         <div class="menuCaption">Меню:</div>
-        <a href="/admin/">Главная</a><br />
-        <a href="category/" >Категории</a><br />
-        <a href="products/" >Товары</a><br />
-        <a href="orders/" >Заказы</a><br />
+        <dl>
+            <dt><a href="/admin/">Главная</a></dt>
+            <dt><a href="/admin/category/" >Категории</a></dt>
+            <dt><a href="/admin/products/" >Товары</a></dt>
+                <dd><a href="/admin/updateproduct/" >Редактирование</a></dd>
+            <dt><a href="/admin/orders/" >Заказы</a></dt>
+        </dl>
     </div>
 
 </div>

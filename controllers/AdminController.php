@@ -8,6 +8,7 @@ include_once '../models/CategoriesModel.php';
 include_once '../models/UsersModel.php';
 include_once '../models/OrdersModel.php';
 include_once '../models/PurchasesModel.php';
+include_once '../models/ProductsModel.php';
 
 $smarty->setTemplateDir(TemplateAdminPrefix);
 $smarty->assign('templateWebPath', TemplateAdminWebPath);
@@ -85,4 +86,85 @@ function updatecategoryAction(){
     echo json_encode($resData);
     return;
 
+}
+
+/**
+ * Страница управления товарами
+ * @param $smarty
+ */
+function productsAction($smarty){
+    $resCategories = getAllCategories();
+    $resProducts = getProducts();
+
+    $smarty->assign('resCategories', $resCategories);
+    $smarty->assign('resProducts', $resProducts);
+    $smarty->assign('pageTitle', 'Управление сайтом');
+
+    loadTemplate($smarty, 'adminHeader');
+    loadTemplate($smarty, 'adminProducts');
+    loadTemplate($smarty, 'adminFooter');
+}
+
+/**
+ * добавление товара в базу данных
+ */
+
+function addproductAction(){
+    $itemName = $_POST['itemName'];
+    $itemPrice = $_POST['itemPrice'];
+    $itemDesc = $_POST['itemDesc'];
+    $itemCat = $_POST['itemCatId'];
+    $itemImage = $_POST['itemImage'];
+
+    $res = insertProduct($itemName,$itemPrice,$itemDesc,$itemCat, $itemImage);
+
+    if($res){
+        $resData['success'] = 1;
+        $resData['message'] = 'Изменения внесены';
+    }else{
+        $resData['success'] = 0;
+        $resData['message'] = 'Ошибка изменения';
+    }
+    echo json_encode($resData);
+    return;
+}
+
+
+/**
+ * Страница управления товарами
+ * @param $smarty
+ */
+function updateproductAction($smarty){
+    $resCategories = getAllCategories();
+    $resProducts = getProducts();
+
+    $smarty->assign('resCategories', $resCategories);
+    $smarty->assign('resProducts', $resProducts);
+    $smarty->assign('pageTitle', 'Управление сайтом');
+
+    loadTemplate($smarty, 'adminHeader');
+   loadTemplate($smarty, 'adminProducts1');
+    loadTemplate($smarty, 'adminFooter');
+}
+
+function upproductAction(){
+    $itemName = $_POST['itemName'];
+    $itemId = $_POST['itemId'];
+    $itemPrice = $_POST['itemPrice'];
+    $itemDesc = $_POST['itemDesc'];
+    $itemCat = $_POST['itemCatId'];
+    $itemImage = $_POST['itemImage'];
+    $itemStatus = $_POST['itemStatus'];
+
+    $res = updateProduct($itemId, $itemName,  $itemPrice, $itemDesc, $itemCat, $itemImage, $itemStatus, $itemImage);
+
+    if($res){
+        $resData['success'] = 1;
+        $resData['message'] = 'Изменения успешно внесены';
+    }else{
+        $resData['success'] = 0;
+        $resData['message'] = 'Ошибка изменения';
+    }
+    echo json_encode($resData);
+    return;
 }

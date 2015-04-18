@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-16 17:54:47
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-04-18 18:22:30
          compiled from "..\views\admin\adminHeader.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:21591552fcd3788c4b0-28278339%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e63b65141fd79de2ba9da8d840a8119031daa53e' => 
     array (
       0 => '..\\views\\admin\\adminHeader.tpl',
-      1 => 1429196053,
+      1 => 1429370542,
       2 => 'file',
     ),
   ),
@@ -15,14 +15,14 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.21-dev',
+  'unifunc' => 'content_552fcd38145219_88331839',
   'variables' => 
   array (
     'pageTitle' => 0,
     'templateWebPath' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.21-dev',
-  'unifunc' => 'content_552fcd38145219_88331839',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_552fcd38145219_88331839')) {function content_552fcd38145219_88331839($_smarty_tpl) {?><!doctype HTML>
 <html>
@@ -32,6 +32,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 </title>
     <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['templateWebPath']->value;?>
 css/main.css" type="text/css" />
+    <link rel="stylesheet" href="<?php echo $_smarty_tpl->tpl_vars['templateWebPath']->value;?>
+css/view.css" type="text/css" />
     <?php echo '<script'; ?>
  type="text/javascript" src="/www/js/jquery.js"><?php echo '</script'; ?>
 >
@@ -41,6 +43,7 @@ css/main.css" type="text/css" />
 </head>
 
 <body>
+<div id="container">
 <header>
     <h1>Управление сайтом</h1>
 </header>

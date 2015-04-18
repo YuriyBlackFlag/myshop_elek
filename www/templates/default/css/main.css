@@ -26,7 +26,7 @@ h1{
 }
 
 h3 {
-    color: #3987b8;
+    color: #631d3b;
     font-size: 16px;
     margin: 10px 0;
 }
@@ -39,12 +39,16 @@ img {
 }
 
 h1{
-    color: darkkhaki;
-    text-shadow: 1px 1px 1px black;
+    color: #a2a2a2;
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px green;
 }
 
 header{
-    height: 60px;
+    height: 70px;
     text-align: center;
     margin: 0 auto;
     border-bottom: 2px solid #bbbd91;
@@ -57,6 +61,7 @@ header{
     padding-left: 20px;
     min-height: 400px;
     position: absolute;
+    padding-top: 20px;
 }
 
 #leftMenu, #loginBox, #registerBox{
@@ -73,20 +78,18 @@ span {
     padding-left: 30px;
     padding-top: 20px;
     margin-left: 220px;
-    margin-top: -5px;
     float: left;
-    min-height: 500px;
+    min-height: 480px;
     position: relative;
 }
 
 footer{
     clear: both;
     margin: 0 auto;
-    /*margin-top: 500px;*/
-    width: 1000px;
     border-top: 2px solid #bbbd91;
     text-align: right;
-    background: url("/www/images/div-background.png") repeat-x scroll left bottom rgba(0, 0, 0, 0);
+    background: url("/www/images/footer.jpg") repeat-x scroll center top rgba(0, 0, 0, 0);
+    height: 30px;
 }
 
 .menuCaption{
@@ -108,34 +111,76 @@ footer{
 }
 
 a:link, a:visited {
-    color: #51615b;
-    display: block;
-    font-family: "BentonSansRegular";
-    font-size: 15px;
-    font-weight: normal;
+    color: #631d3b;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
 }
 a:hover {
     color: #f7960b;
     cursor: pointer;
     font-weight: normal;
     text-decoration: none;
+    font-size: 15px;
 }
 
 a:active, a:focus {
     outline: medium none;
 }
 a {
-    color: #a10651;
-    outline: medium none;
+    color: #631d3b;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
 }
-input.button {
+input[type="button"] {
     cursor: pointer;
+    text-decoration:none; text-align:center;
+    padding:5px 15px;
+    border:none;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius: 4px;
+    font:13px Tahoma, Geneva, sans-serif;
+    font-weight:bold;
+    color:#dcf5f5;
+    background-color:#121c1f;
+    background-image: -moz-linear-gradient(top, #121c1f 0%, #4a6b46 100%);
+    background-image: -webkit-linear-gradient(top, #121c1f 0%, #4a6b46 100%);
+    background-image: -o-linear-gradient(top, #121c1f 0%, #4a6b46 100%);
+    background-image: -ms-linear-gradient(top, #121c1f 0% ,#4a6b46 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a6b46', endColorstr='#4a6b46',GradientType=0 );
+    background-image: linear-gradient(top, #121c1f 0% ,#4a6b46 100%);
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:0.85;
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+    filter: alpha(opacity=85);
 }
+
+.button:hover{
+     padding:11px 32px;
+     border:solid 1px #004F72;
+     -webkit-border-radius:4px;
+     -moz-border-radius:4px;
+     border-radius: 4px;
+     font:13px Tahoma, Geneva, sans-serif;
+     font-weight:bold;
+     color:#dcf5f5;
+     background-color:#3BA4C7;
+     background-image: -moz-linear-gradient(top, #3BA4C7 0%, #1982A5 100%);
+     background-image: -webkit-linear-gradient(top, #3BA4C7 0%, #1982A5 100%);
+     background-image: -o-linear-gradient(top, #3BA4C7 0%, #1982A5 100%);
+     background-image: -ms-linear-gradient(top, #3BA4C7 0% ,#1982A5 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982A5', endColorstr='#1982A5',GradientType=0 );
+ }
 
 #main{
     float: left;
-    padding: 5px 20px 20px 15px;
+    padding: 0px 20px 20px 15px;
     width: 150px;
+    max-height: 140px;
 }
 #bot{
     clear: both;
@@ -159,11 +204,25 @@ span.bolder{
     font-weight: 600;
 }
 
-#userTable{
-    border: 0;
-    border-spacing: 10px 10px;
-}
 
-#userTable > td{
-     padding: 10px;
+
+table {
+    border-width: 1px;
+    border-spacing: 0px;
+    border-style: outset;
+    border-color: green;
+    border-collapse: collapse;
+}
+table th {
+    border-width: 2px;
+    padding: 3px;
+    border-style: solid;
+    border-color: green;
+
+}
+table td {
+    border-width: 1px;
+    padding: 3px;
+    border-style: solid;
+    border-color: green;
 }

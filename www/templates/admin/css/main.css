@@ -5,16 +5,28 @@ body{
     font-size: 12px;
     line-height: 20px;
     margin: 0;
-    overflow: hidden;
+    /*overflow: hidden;*/
     padding: 0;
+
 }
+
 html {
     height: 100%;
-    margin-bottom: 1px;
+    /*margin-bottom: 1px;*/
+}
+
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    background: url("/www/images/container_body.jpg") repeat scroll left top rgba(0, 0, 0, 0);
+}
+
+h1{
+    padding-top: 10px;
 }
 
 h3 {
-    color: #3987b8;
+    color: #631d3b;
     font-size: 16px;
     margin: 10px 0;
 }
@@ -26,21 +38,30 @@ img {
     display: none;
 }
 
+h1{
+    color: #a2a2a2;
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px green;
+}
+
 header{
-    height: 70px;
+    height: 60px;
     text-align: center;
-    margin-bottom: 50px;
-    max-height: 100px;
-    margin-left: 100px;
-    max-width: 1140px;
-    padding-left: 20px;
+    margin: 0 auto;
+    border-bottom: 2px solid #bbbd91;
+    clear:both;
 }
 
 #leftColumn{
-    width: 180px;
+    width: 150px;
     float: left;
-    margin-left: 160px;
+    padding-left: 20px;
+    min-height: 400px;
     position: absolute;
+    padding-top: 20px;
 }
 
 #leftMenu, #loginBox, #registerBox{
@@ -51,25 +72,24 @@ span {
     font-size: 90%;
 }
 
-#bolder{
-    font-size: 110%;
-    font-weight: bold;
-}
-
 #centerColumn{
-    width: 800px;
-    max-width: 800px;
-    padding-left: 130px;
+    width: 840px;
+    max-width: 850px;
+    padding-top: 20px;
+    margin-left: 170px;
     float: left;
+    min-height: 480px;
     position: relative;
-    margin-left: 250px;
+    padding-left: 50px;
 }
 
 footer{
     clear: both;
-    margin-left: 160px;
-    margin-top: 550px;
-    width: 980px;
+    margin: 0 auto;
+    border-top: 2px solid #bbbd91;
+    text-align: right;
+    background: url("/www/images/footer.jpg") repeat-x scroll center top rgba(0, 0, 0, 0);
+    height: 30px;
 }
 
 .menuCaption{
@@ -77,12 +97,23 @@ footer{
     font-weight: bold;
 }
 
+.Caption{
+    padding: 3px;
+    font-weight: bold;
+    float: right;
+    margin-top: -60px;
+    color: #5b5b5b;
+
+}
+
 .cartBox{
     padding: 5px 0px 0px 5px;
 }
 
 a:link, a:visited {
-    font-weight: normal;
+    color: #631d3b;
+    font-size: 14px;
+    font-weight: bold;
     text-decoration: none;
 }
 a:hover {
@@ -96,17 +127,40 @@ a:active, a:focus {
     outline: medium none;
 }
 a {
-    color: #a10651;
-    outline: medium none;
+    color: #631d3b;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+input[type="button"] {
+    cursor: pointer;
+    text-decoration:none; text-align:center;
+    padding:5px 15px;
+    border:none;
+    border-radius: 4px;
+    font:13px Tahoma, Geneva, sans-serif;
+    font-weight:bold;
+    color:#dcf5f5;
+    background-color:#121c1f;
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+    opacity:0.85;
+    filter: alpha(opacity=85);
 }
 
-input.button {
-    cursor: pointer;
+input[type="button:hover"]{
+    padding:11px 32px;
+    border:solid 1px #004F72;
+    border-radius: 4px;
+    font:13px Tahoma, Geneva, sans-serif;
+    font-weight:bold;
+    color:#dcf5f5;
+    background-color:#3BA4C7;
+
 }
 
 #main{
     float: left;
-    padding: 10px 30px 40px 10px;
+    padding: 5px 20px 20px 15px;
     width: 150px;
 }
 #bot{
@@ -119,9 +173,8 @@ div.text{
 }
 
 .showHidden{
-    text-decoration: underline;
-    color: blue;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 #registerBoxHidden{
@@ -132,11 +185,35 @@ span.bolder{
     font-weight: 600;
 }
 
-#userTable{
-    border: 0;
-    border-spacing: 10px 10px;
+
+table {
+    border-width: 1px;
+    border-spacing: 0px;
+    border-style: outset;
+    border-color: green;
+    border-collapse: collapse;
+    background-color: rgb(255, 245, 238);
+}
+table th {
+    border-width: 2px;
+    padding: 3px;
+    border-style: solid;
+    border-color: green;
+    background-color: white;
+}
+table td {
+    border-width: 1px;
+    padding: 3px;
+    border-style: solid;
+    border-color: green;
+    background-color: white;
 }
 
-#userTable > td{
+#form[input]{
     padding: 10px;
+}
+
+dd{
+    margin-left: 10px;
+    font-style: italic;
 }

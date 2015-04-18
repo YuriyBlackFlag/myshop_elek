@@ -3,7 +3,7 @@
 <h3>{$resProduct['name']}</h3>
 
         <div>
-                <img src="/www/images/products/{$resProduct['image']}" width="500"  /><br />
+                <img src="/www/images/products/{$resProduct['image']}" width="430"  /><br />
             Цена {$resProduct['price']} UAH
             <a id="removeCart_{$resProduct['id']}" {if ! $itemInCart} class="hideme"{/if} href="#" onClick="removeFromCart({$resProduct['id']}); return false;"
                alt="Удалить из корзины">Удалить из корзины</a>

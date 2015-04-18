@@ -4,11 +4,13 @@
     <meta charset ='utf-8' />
     <title>{$pageTitle}</title>
     <link rel="stylesheet" href="{$templateWebPath}css/main.css" type="text/css" />
+    <link rel="stylesheet" href="{$templateWebPath}css/view.css" type="text/css" />
     <script type="text/javascript" src="/www/js/jquery.js"></script>
     <script type="text/javascript" src="/www/js/main.js"></script>
 </head>
 
 <body>
+<div id="container">
 <header>
     <h1>Управление сайтом</h1>
 </header>
