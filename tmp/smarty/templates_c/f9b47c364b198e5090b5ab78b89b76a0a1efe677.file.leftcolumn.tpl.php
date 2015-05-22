@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 15:47:27
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 20:18:20
          compiled from "..\views\modern\leftcolumn.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:17134555f14bc1f3ea1-60417634%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f9b47c364b198e5090b5ab78b89b76a0a1efe677' => 
     array (
       0 => '..\\views\\modern\\leftcolumn.tpl',
-      1 => 1432298842,
+      1 => 1432315099,
       2 => 'file',
     ),
   ),
@@ -39,7 +39,7 @@ $_smarty_tpl->tpl_vars['item']->_loop = true;
 
             
         <?php } ?>
-            <li><a href="/views/modern/contactus.html">Контакты</a></li>
+            <li></li>
         </ul>
 
         <div class="cleaner">

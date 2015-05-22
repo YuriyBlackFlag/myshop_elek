@@ -41,6 +41,7 @@
 	width: 630px;
 	height: 410px;
 	padding: 40px 20px;
+
 }
 
 #templatemo_sidebar {
@@ -79,7 +80,7 @@
     width: 630px;
     height: 410px;
     overflow: auto;
-     overflow-x: hidden;
+    /*overflow-x: hidden;*/
     position: relative;
     clear: left;
 
@@ -88,7 +89,7 @@
 .scrollContainer div.panel {
     width: 630px;
     height: 410px;
-	overflow: hidden;
+    overflow-y: auto;
 }
 
 ul.navigation {

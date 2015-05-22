@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="963d8fad-e657-410f-954d-7c6a35d701b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/admin/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/adminOrders.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/modern/cart.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/modern/category.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/modern/contactus.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/modern/footer.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/modern/header.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/modern/index.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/modern/leftcolumn.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/templates/modern/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/modern/order.tpl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/modern/product.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/AdminController.php" afterPath="$PROJECT_DIR$/controllers/AdminController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/IndexController.php" afterPath="$PROJECT_DIR$/controllers/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/OrdersModel.php" afterPath="$PROJECT_DIR$/models/OrdersModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/ProductsModel.php" afterPath="$PROJECT_DIR$/models/ProductsModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/config.php" afterPath="$PROJECT_DIR$/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/db.php" afterPath="$PROJECT_DIR$/config/db.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/admin/css/main.css" afterPath="$PROJECT_DIR$/www/templates/admin/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/main.js" afterPath="$PROJECT_DIR$/www/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/admin/css/view.css" afterPath="$PROJECT_DIR$/www/templates/admin/css/view.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/modern/user.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/templates_c/a75539fb3e2c748e35b803162883b13af436735e.file.header.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/templates_c/a75539fb3e2c748e35b803162883b13af436735e.file.header.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/modern/css/coda-slider.css" afterPath="$PROJECT_DIR$/www/templates/modern/css/coda-slider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/templates_c/f9b47c364b198e5090b5ab78b89b76a0a1efe677.file.leftcolumn.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/templates_c/f9b47c364b198e5090b5ab78b89b76a0a1efe677.file.leftcolumn.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/modern/header.tpl" afterPath="$PROJECT_DIR$/views/modern/header.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/modern/leftcolumn.tpl" afterPath="$PROJECT_DIR$/views/modern/leftcolumn.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myshop.local.iws" />
@@ -49,14 +33,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controllers/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9388489" vertical-offset="3507" max-vertical-offset="4131">
+            <state vertical-scroll-proportion="-20.076923" vertical-offset="3507" max-vertical-offset="4131">
               <caret line="237" column="1" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
               <folding>
                 <element signature="e#6#51#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="leftcolumn.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/modern/leftcolumn.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="459">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/modern/index.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="527">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,16 +80,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="5440" max-vertical-offset="6664">
               <caret line="340" column="34" selection-start-line="340" selection-start-column="34" selection-end-line="340" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="category.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/modern/category.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="612">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -113,58 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PurchasesModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/PurchasesModel.php">
+      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/modern/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.423077" vertical-offset="158" max-vertical-offset="782">
-              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-              <folding>
-                <marker date="1429172026584" expanded="true" signature="322:393" placeholder="INSERT INTO ..." />
-                <marker date="1429172026584" expanded="true" signature="818:976" placeholder="SELECT `pe`...." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/UsersModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3111">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1429171461773" expanded="true" signature="737:890" placeholder="INSERT INTO ..." />
-                <marker date="1429171461773" expanded="true" signature="963:1051" placeholder="SELECT * FRO..users..." />
-                <marker date="1429171461773" expanded="true" signature="2030:2075" placeholder="SELECT id FR..users..." />
-                <marker date="1429171461773" expanded="true" signature="2494:2595" placeholder="SELECT * FRO..users..." />
-                <marker date="1429171461773" expanded="true" signature="3548:3576" placeholder="UPDATE users..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CategoriesModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/CategoriesModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.615385" vertical-offset="1841" max-vertical-offset="2465">
-              <caret line="125" column="11" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
-              <folding>
-                <marker date="1429360887619" expanded="true" signature="262:337" placeholder="SELECT * FRO..categories..." />
-                <marker date="1429360887619" expanded="true" signature="588:654" placeholder="SELECT * FRO..categories..." />
-                <marker date="1429360887619" expanded="true" signature="1175:1245" placeholder="SELECT * FRO..categories..." />
-                <marker date="1429360887619" expanded="true" signature="1392:1460" placeholder="SELECT * FRO..categories..." />
-                <marker date="1429360887619" expanded="true" signature="1762:1870" placeholder="INSERT INTO ..." />
-                <marker date="1429360887619" expanded="true" signature="2079:2151" placeholder="SELECT * FRO..categories..." />
-                <marker date="1429360887619" expanded="true" signature="2643:2722" placeholder="UPDATE categ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminProducts1.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/admin/adminProducts1.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.26923" vertical-offset="443" max-vertical-offset="1054">
-              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.72482014" vertical-offset="719" max-vertical-offset="1394">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -178,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/views/default/category.tpl" />
         <option value="$PROJECT_DIR$/controllers/ProductController.php" />
         <option value="$PROJECT_DIR$/library/mainFunctions.php" />
         <option value="$PROJECT_DIR$/www/index.php" />
@@ -218,17 +164,18 @@
         <option value="$PROJECT_DIR$/views/modern/cart.tpl" />
         <option value="$PROJECT_DIR$/views/modern/product.tpl" />
         <option value="$PROJECT_DIR$/views/modern/order.tpl" />
-        <option value="$PROJECT_DIR$/views/modern/leftcolumn.tpl" />
         <option value="$PROJECT_DIR$/views/modern/contactus.html" />
-        <option value="$PROJECT_DIR$/views/modern/header.tpl" />
         <option value="$PROJECT_DIR$/www/templates/modern/css/templatemo_style.css" />
         <option value="$PROJECT_DIR$/www/js/coda-slider.js" />
-        <option value="$PROJECT_DIR$/www/templates/modern/css/coda-slider.css" />
         <option value="$PROJECT_DIR$/views/modern/index.tpl" />
         <option value="$PROJECT_DIR$/views/modern/category.tpl" />
         <option value="$PROJECT_DIR$/controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/models/ProductsModel.php" />
         <option value="$PROJECT_DIR$/www/js/main.js" />
+        <option value="$PROJECT_DIR$/views/modern/user.tpl" />
+        <option value="$PROJECT_DIR$/www/templates/modern/css/coda-slider.css" />
+        <option value="$PROJECT_DIR$/views/modern/leftcolumn.tpl" />
+        <option value="$PROJECT_DIR$/views/modern/header.tpl" />
       </list>
     </option>
   </component>
@@ -321,6 +268,14 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -336,7 +291,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,7 +305,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modern" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myshop.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myshop.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myshop.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myshop.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -501,13 +492,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33215547" vertical-offset="11100" max-vertical-offset="14212">
-          <caret line="664" column="22" selection-start-line="664" selection-start-column="22" selection-end-line="664" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/UserController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.5384617" vertical-offset="2040" max-vertical-offset="3434">
@@ -561,13 +545,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.93703705" vertical-offset="293" max-vertical-offset="1853">
           <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/default/user.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.807692" vertical-offset="956" max-vertical-offset="1564">
-          <caret line="85" column="9" selection-start-line="59" selection-start-column="12" selection-end-line="85" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -650,14 +627,6 @@
     <entry file="file://$PROJECT_DIR$/views/default/category.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="556">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/default/leftcolumn.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="901">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -759,38 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/modern/css/coda-slider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="982" max-vertical-offset="2465">
-          <caret line="87" column="8" selection-start-line="87" selection-start-column="8" selection-end-line="87" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/modern/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.615385" vertical-offset="226" max-vertical-offset="850">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/modern/leftcolumn.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="459">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/modern/index.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="527">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/modern/order.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="1921">
@@ -823,26 +760,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/modern/product.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34438306" vertical-offset="0" max-vertical-offset="543">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/CategoriesModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.615385" vertical-offset="1841" max-vertical-offset="2465">
           <caret line="125" column="11" selection-start-line="125" selection-start-column="11" selection-end-line="125" selection-end-column="11" />
           <folding>
-            <marker date="1429360887619" expanded="true" signature="262:337" placeholder="SELECT * FRO..categories..." />
-            <marker date="1429360887619" expanded="true" signature="588:654" placeholder="SELECT * FRO..categories..." />
-            <marker date="1429360887619" expanded="true" signature="1175:1245" placeholder="SELECT * FRO..categories..." />
-            <marker date="1429360887619" expanded="true" signature="1392:1460" placeholder="SELECT * FRO..categories..." />
-            <marker date="1429360887619" expanded="true" signature="1762:1870" placeholder="INSERT INTO ..." />
-            <marker date="1429360887619" expanded="true" signature="2079:2151" placeholder="SELECT * FRO..categories..." />
-            <marker date="1429360887619" expanded="true" signature="2643:2722" placeholder="UPDATE categ..." />
+            <marker date="1429360887619" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..categories..." />
+            <marker date="1429360887619" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..categories..." />
+            <marker date="1429360887619" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..categories..." />
+            <marker date="1429360887619" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..categories..." />
+            <marker date="1429360887619" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1429360887619" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..categories..." />
+            <marker date="1429360887619" expanded="true" signature="-1:-1" placeholder="UPDATE categ..." />
           </folding>
         </state>
       </provider>
@@ -852,8 +781,8 @@
         <state vertical-scroll-proportion="-19.423077" vertical-offset="158" max-vertical-offset="782">
           <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding>
-            <marker date="1429172026584" expanded="true" signature="322:393" placeholder="INSERT INTO ..." />
-            <marker date="1429172026584" expanded="true" signature="818:976" placeholder="SELECT `pe`...." />
+            <marker date="1429172026584" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1429172026584" expanded="true" signature="-1:-1" placeholder="SELECT `pe`...." />
           </folding>
         </state>
       </provider>
@@ -863,11 +792,11 @@
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3111">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1429171461773" expanded="true" signature="737:890" placeholder="INSERT INTO ..." />
-            <marker date="1429171461773" expanded="true" signature="963:1051" placeholder="SELECT * FRO..users..." />
-            <marker date="1429171461773" expanded="true" signature="2030:2075" placeholder="SELECT id FR..users..." />
-            <marker date="1429171461773" expanded="true" signature="2494:2595" placeholder="SELECT * FRO..users..." />
-            <marker date="1429171461773" expanded="true" signature="3548:3576" placeholder="UPDATE users..." />
+            <marker date="1429171461773" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1429171461773" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
+            <marker date="1429171461773" expanded="true" signature="-1:-1" placeholder="SELECT id FR..users..." />
+            <marker date="1429171461773" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
+            <marker date="1429171461773" expanded="true" signature="-1:-1" placeholder="UPDATE users..." />
           </folding>
         </state>
       </provider>
@@ -897,14 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/CartController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.576923" vertical-offset="1297" max-vertical-offset="3485">
-          <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/ProductsModel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.846154" vertical-offset="2402" max-vertical-offset="3026">
@@ -925,13 +846,85 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/default/user.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06115108" vertical-offset="0" max-vertical-offset="1564">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/default/leftcolumn.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="901">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/modern/css/coda-slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6202749" vertical-offset="1084" max-vertical-offset="2482">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modern/user.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03057554" vertical-offset="0" max-vertical-offset="1666">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modern/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1878453" vertical-offset="0" max-vertical-offset="543">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9388489" vertical-offset="3507" max-vertical-offset="4131">
+        <state vertical-scroll-proportion="-20.076923" vertical-offset="3507" max-vertical-offset="4131">
           <caret line="237" column="1" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
           <folding>
             <element signature="e#6#51#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/CartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.576923" vertical-offset="1297" max-vertical-offset="3485">
+          <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modern/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="527">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modern/leftcolumn.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="459">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modern/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72482014" vertical-offset="719" max-vertical-offset="1394">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -12,7 +12,7 @@
                 {/foreach}
             {/if}*}
         {/foreach}
-            <li><a href="/views/modern/contactus.html">Контакты</a></li>
+            <li></li>
         </ul>
 
         <div class="cleaner">
