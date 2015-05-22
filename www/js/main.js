@@ -334,4 +334,56 @@ function updateProduct(itemId){
         }
     });
 }
+function deleteProduct(itemId){
+    $.ajax({
+        type: 'POST',
+        async: false,
+        url: "/admin/delproduct/",
+        dataType: 'json',
+        success: function(data){
+            alert(data['message']);
+            }
+    });
+}
 
+function updateOrderStatus(itemId){
+    var status = $('#itemStatus_' + itemId).attr('checked');
+    if(! status){
+        status = 0
+    } else {
+        status = 1
+    }
+    var postData = {itemId: itemId, status: status};
+
+    $.ajax({
+        type: 'POST',
+        async: false,
+        url: "/admin/setorderstatus/",
+        data: postData,
+        dataType: 'json',
+        success: function (data) {
+            if(! data['success']) {
+                alert(data['message']);
+            }
+        }
+    });
+}
+
+function updateDatePayment(itemId){
+    var datePayment = $('#datePayment_' + itemId).val();
+
+    var postData = {itemId: itemId, datePayment: datePayment};
+
+    $.ajax({
+        type: 'POST',
+        async: false,
+        url: "/admin/setorderdaypayment/",
+        data: postData,
+        dataType: 'json',
+        success: function (data) {
+            if(! data['success']) {
+                alert(data['message']);
+            }
+        }
+    });
+}

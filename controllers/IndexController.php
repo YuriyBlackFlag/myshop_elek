@@ -20,7 +20,7 @@ function testAction(){
  */
 function indexAction($smarty){
     $resCategories = getAllMainCatsWithChildren();
-    $resProducts = getLastProducts(16);
+    $resProducts = getLastProducts(9);
     //d($resCategories);
 
     $smarty->assign('pageTitle', 'Главная страница сайта');

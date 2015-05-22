@@ -80,3 +80,71 @@ function getOrdersWithProductsByUser($userId)
 
     return $smartyRes;
 }
+
+
+
+function getOrders()
+{
+    $sql = "SELECT o.*, u.name, u.email, u.phone, u.adress
+            FROM orders as o
+            LEFT JOIN users as u
+			ON o.user_id = u.id
+			ORDER BY id DESC";
+    global $link;
+    $res = mysqli_query($link, $sql);
+
+    $smartyRes = array();
+    while ($row = mysqli_fetch_assoc($res)) {
+        $resChildren = getProductsForOrder($row['id']);
+
+        if ($resChildren) {
+            $row['children'] = $resChildren;
+            $smartyRes[] = $row;
+        }
+    }
+
+    return $smartyRes;
+}
+
+
+function getProductsForOrder($orderId){
+    $sql = "SELECT *
+            FROM purchase as pe
+            LEFT JOIN products as ps
+			ON pe.product_id = ps.id
+			WHERE (`order_id` = '{$orderId}')";
+    global $link;
+    $res = mysqli_query($link, $sql);
+    return createSmartyResArray($res);
+}
+
+function updateOrderStatus($itemId, $status){
+    $status = intval($status);
+    $itemId = intval($itemId);
+    $sql = "UPDATE orders
+            SET `status` = '{$status}'
+            WHERE id = '{$itemId}'";
+    global $link;
+    $res = mysqli_query($link, $sql);
+
+    return $res;
+}
+
+function updateOrderDatePayment($itemId, $datePayment){
+    $itemId = intval($itemId);
+    $date_format = 'Y-m-d';
+    $input = $datePayment;
+
+    $input = trim($input);
+    $time = strtotime($input);
+
+    $datePayment = date($date_format, $time) == $input;
+
+    $sql = "UPDATE orders
+            SET `date_payment` = '{$datePayment}'
+            WHERE id = '{$itemId}'";
+    global $link;
+    $res = mysqli_query($link, $sql);
+
+    return $res;
+}

@@ -6,7 +6,7 @@
 $dblocation = "127.0.0.1";
 $dbname = 'myshop';
 $dbuser = 'root';
-$dbpasswd = 'root';
+$dbpasswd = '';
 
 //Подключение к БД
 try {

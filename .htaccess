@@ -18,5 +18,4 @@ RewriteBase /
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^(.*)$ index.php/$1 [L,QSA]
 
-php_flag register_long_arrays off
 

@@ -159,3 +159,15 @@ function updateProduct($itemId, $itemName,  $itemPrice, $itemDesc, $itemCat, $it
     $res = mysqli_query($link, $sql);
     return $res;
 }
+
+function deleteProduct($itemId)
+{
+
+    $sql = "DELETE FROM
+            products
+            WHERE id = '{$itemId}'";
+
+    global $link;
+    $res = mysqli_query($link, $sql);
+    return $res;
+}

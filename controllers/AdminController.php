@@ -147,7 +147,8 @@ function updateproductAction($smarty){
     loadTemplate($smarty, 'adminFooter');
 }
 
-function upproductAction(){
+function upproductAction()
+{
     $itemName = $_POST['itemName'];
     $itemId = $_POST['itemId'];
     $itemPrice = $_POST['itemPrice'];
@@ -156,14 +157,81 @@ function upproductAction(){
     $itemImage = $_POST['itemImage'];
     $itemStatus = $_POST['itemStatus'];
 
-    $res = updateProduct($itemId, $itemName,  $itemPrice, $itemDesc, $itemCat, $itemImage, $itemStatus, $itemImage);
+    $res = updateProduct($itemId, $itemName, $itemPrice, $itemDesc, $itemCat, $itemImage, $itemStatus, $itemImage);
+
+    if ($res) {
+        $resData['success'] = 1;
+        $resData['message'] = 'Изменения успешно внесены';
+    } else {
+        $resData['success'] = 0;
+        $resData['message'] = 'Ошибка изменения';
+    }
+    echo json_encode($resData);
+    return;
+}
+
+function delproductAction()
+{
+    $itemId = $_POST['itemId'];
+
+
+    $res = deleteProduct($itemId);
+
+    if ($res) {
+        $resData['success'] = 1;
+        $resData['message'] = 'Изменения успешно внесены';
+    } else {
+        $resData['success'] = 0;
+        $resData['message'] = 'Ошибка изменения';
+    }
+    echo json_encode($resData);
+    return;
+}
+
+
+
+function ordersAction($smarty){
+    $resOrders = getOrders();
+
+    $smarty->assign('resOrders', $resOrders);
+    $smarty->assign('pageTitle', 'Заказы');
+
+    loadTemplate($smarty, 'adminHeader');
+    loadTemplate($smarty, 'adminOrders');
+    loadTemplate($smarty, 'adminFooter');
+}
+
+function setorderstatusAction(){
+
+    $itemId = $_POST['itemId'];
+    $status = $_POST['status'];
+
+    $res = updateOrderStatus($itemId, $status);
 
     if($res){
         $resData['success'] = 1;
         $resData['message'] = 'Изменения успешно внесены';
     }else{
         $resData['success'] = 0;
-        $resData['message'] = 'Ошибка изменения';
+        $resData['message'] = 'Ошибка установления статусов';
+    }
+    echo json_encode($resData);
+    return;
+}
+
+function setorderdaypaymentAction(){
+
+    $itemId = $_POST['itemId'];
+    $dayPayment = $_POST['day_payment'];
+
+    $res = updateOrderDatePayment($itemId, $dayPayment);
+
+    if($res){
+        $resData['success'] = 1;
+        $resData['message'] = 'Дата обновлена';
+    }else{
+        $resData['success'] = 0;
+        $resData['message'] = 'Ошибка обновления даты';
     }
     echo json_encode($resData);
     return;
