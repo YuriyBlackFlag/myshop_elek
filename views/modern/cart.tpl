@@ -67,7 +67,7 @@
         {/foreach}
 
     </table>
-        <input type="submit" value="Оформить заказ"/>
+        <input type="submit" value="Оформить заказ" class="submit_btn"/>
     </form>
 {/if}
         </div>

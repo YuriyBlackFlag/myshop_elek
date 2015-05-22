@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 15:39:16
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 23:29:27
          compiled from "..\views\modern\order.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:23257555f229bd19c29-03950869%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'b669cd33b29ac3945513af95d3684d99542f27d1' => 
     array (
       0 => '..\\views\\modern\\order.tpl',
-      1 => 1432298354,
+      1 => 1432326565,
       2 => 'file',
     ),
   ),
@@ -31,9 +31,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_555f229c092c93_36553797')) {function content_555f229c092c93_36553797($_smarty_tpl) {?>
 <div class="scrollContainer">
-
-
-<h2>Данные заказа</h2>
+    <div class="scroll">
+        <div class="panel" id="home">
+<h3>Данные заказа</h3>
 <form id="frmOrder" action="/cart/saveorder/" method="POST">
     <table>
         <thead>
@@ -135,7 +135,7 @@ $_smarty_tpl->tpl_vars['item']->_loop = true;
                 </tr>
                 <tr>
                     <td></td>
-                    <td><input type="button" onclick="login();" value="Войти"/></td>
+                    <td><input type="button" onclick="login();" value="Войти" class="submit_btn"/></td>
                 </tr>
             </table>
         </div>
@@ -151,13 +151,14 @@ $_smarty_tpl->tpl_vars['item']->_loop = true;
             Тел* :<input type="text" id="phone" name="phone" value="" /><br />
             Адрес* :<textarea  id="adress" name="adress" /></textarea><br />
 
-            <input type="button" onclick="registerNewUser();" value="Зарегистрироваться"/>
+            <input type="button" onclick="registerNewUser();" value="Зарегистрироваться" class="submit_btn"/>
         </div>
         <?php $_smarty_tpl->tpl_vars['buttonClass'] = new Smarty_variable("class='hideme'", null, 0);?>
     <?php }?>
 
     <input <?php echo $_smarty_tpl->tpl_vars['buttonClass']->value;?>
- id="btnSaveOrder" type="button" value="Оформить заказ" onclick="saveOrder();"/>
+ id="btnSaveOrder" type="button" value="Оформить заказ" onclick="saveOrder();" class="submit_btn"/>
 </form>
-
+        </div>
+        </div>
         </div><?php }} ?>

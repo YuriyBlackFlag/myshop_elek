@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 17:38:23
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 23:08:17
          compiled from "..\views\modern\category.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:4317555f1bf3113ad0-23181558%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '231b15228dfd2ba704f6b18a8c7e4ea739f91557' => 
     array (
       0 => '..\\views\\modern\\category.tpl',
-      1 => 1432305503,
+      1 => 1432325291,
       2 => 'file',
     ),
   ),
@@ -31,8 +31,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div class="scrollContainer">
     <div class="panel" id="home">
 
-<h2>Категория: <?php echo $_smarty_tpl->tpl_vars['resCategory']->value['name'];?>
-</h2>
+<h3>Категория: <?php echo $_smarty_tpl->tpl_vars['resCategory']->value['name'];?>
+</h3>
 <?php if ($_smarty_tpl->tpl_vars['resChildCats']->value==null) {?>
 
 <?php  $_smarty_tpl->tpl_vars['item'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['item']->_loop = false;
@@ -71,9 +71,9 @@ foreach ($_from as $_smarty_tpl->tpl_vars['item']->key => $_smarty_tpl->tpl_vars
 $_smarty_tpl->tpl_vars['item']->_loop = true;
  $_smarty_tpl->tpl_vars['item']->iteration++;
 ?>
-    <h2><a href="/category/<?php echo $_smarty_tpl->tpl_vars['item']->value['id'];?>
+    <h4><a href="/category/<?php echo $_smarty_tpl->tpl_vars['item']->value['id'];?>
 /"><?php echo $_smarty_tpl->tpl_vars['item']->value['name'];?>
-</a></h2>
+</a></h4>
 <?php } ?>
         </div>
     </div>

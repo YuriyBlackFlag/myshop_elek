@@ -1,8 +1,8 @@
 {* страница заказа *}
 <div class="scrollContainer">
-
-
-<h2>Данные заказа</h2>
+    <div class="scroll">
+        <div class="panel" id="home">
+<h3>Данные заказа</h3>
 <form id="frmOrder" action="/cart/saveorder/" method="POST">
     <table>
         <thead>
@@ -81,7 +81,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td><input type="button" onclick="login();" value="Войти"/></td>
+                    <td><input type="button" onclick="login();" value="Войти" class="submit_btn"/></td>
                 </tr>
             </table>
         </div>
@@ -97,12 +97,13 @@
             Тел* :<input type="text" id="phone" name="phone" value="" /><br />
             Адрес* :<textarea  id="adress" name="adress" /></textarea><br />
 
-            <input type="button" onclick="registerNewUser();" value="Зарегистрироваться"/>
+            <input type="button" onclick="registerNewUser();" value="Зарегистрироваться" class="submit_btn"/>
         </div>
         {$buttonClass = "class='hideme'"}
     {/if}
 
-    <input {$buttonClass} id="btnSaveOrder" type="button" value="Оформить заказ" onclick="saveOrder();"/>
+    <input {$buttonClass} id="btnSaveOrder" type="button" value="Оформить заказ" onclick="saveOrder();" class="submit_btn"/>
 </form>
-
+        </div>
+        </div>
         </div>

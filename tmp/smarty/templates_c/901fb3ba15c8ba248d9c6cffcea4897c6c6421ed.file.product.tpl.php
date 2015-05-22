@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 15:33:22
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 23:22:36
          compiled from "..\views\modern\product.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:13394555f1c13921c26-21680378%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '901fb3ba15c8ba248d9c6cffcea4897c6c6421ed' => 
     array (
       0 => '..\\views\\modern\\product.tpl',
-      1 => 1432297480,
+      1 => 1432326156,
       2 => 'file',
     ),
   ),
@@ -28,12 +28,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div class="scrollContainer">
     <div class="scroll">
 <?php if ($_smarty_tpl->tpl_vars['resProduct']->value) {?>
+        <div class="panel" id="home">
 <h3><?php echo $_smarty_tpl->tpl_vars['resProduct']->value['name'];?>
 </h3>
 
 
                 <img src="/www/images/products/<?php echo $_smarty_tpl->tpl_vars['resProduct']->value['image'];?>
-" width="430"  /><br />
+" width="350"  /><br />
             Цена <?php echo $_smarty_tpl->tpl_vars['resProduct']->value['price'];?>
  UAH
             <a id="removeCart_<?php echo $_smarty_tpl->tpl_vars['resProduct']->value['id'];?>
@@ -55,5 +56,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <?php } else { ?>
         <div class="text">Нет такого товара!</div>
 <?php }?>
+    </div>
 </div>
     </div><?php }} ?>

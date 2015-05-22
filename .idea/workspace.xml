@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="963d8fad-e657-410f-954d-7c6a35d701b5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/modern/user.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/templates_c/231b15228dfd2ba704f6b18a8c7e4ea739f91557.file.category.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/templates_c/231b15228dfd2ba704f6b18a8c7e4ea739f91557.file.category.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/templates_c/7744ee92e63fbf7f98defc5a83c4a59c1fd0a979.file.cart.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/templates_c/7744ee92e63fbf7f98defc5a83c4a59c1fd0a979.file.cart.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/templates_c/901fb3ba15c8ba248d9c6cffcea4897c6c6421ed.file.product.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/templates_c/901fb3ba15c8ba248d9c6cffcea4897c6c6421ed.file.product.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/templates_c/a75539fb3e2c748e35b803162883b13af436735e.file.header.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/templates_c/a75539fb3e2c748e35b803162883b13af436735e.file.header.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/templates_c/b669cd33b29ac3945513af95d3684d99542f27d1.file.order.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/templates_c/b669cd33b29ac3945513af95d3684d99542f27d1.file.order.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/modern/cart.tpl" afterPath="$PROJECT_DIR$/views/modern/cart.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/modern/category.tpl" afterPath="$PROJECT_DIR$/views/modern/category.tpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/modern/css/coda-slider.css" afterPath="$PROJECT_DIR$/www/templates/modern/css/coda-slider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/templates_c/f9b47c364b198e5090b5ab78b89b76a0a1efe677.file.leftcolumn.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/templates_c/f9b47c364b198e5090b5ab78b89b76a0a1efe677.file.leftcolumn.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/modern/header.tpl" afterPath="$PROJECT_DIR$/views/modern/header.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/modern/leftcolumn.tpl" afterPath="$PROJECT_DIR$/views/modern/leftcolumn.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/modern/order.tpl" afterPath="$PROJECT_DIR$/views/modern/order.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/modern/product.tpl" afterPath="$PROJECT_DIR$/views/modern/product.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/modern/css/templatemo_style.css" afterPath="$PROJECT_DIR$/www/templates/modern/css/templatemo_style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myshop.local.iws" />
@@ -33,85 +39,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/AdminController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.076923" vertical-offset="3507" max-vertical-offset="4131">
-              <caret line="237" column="1" selection-start-line="237" selection-start-column="1" selection-end-line="237" selection-end-column="1" />
-              <folding>
-                <element signature="e#6#51#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="leftcolumn.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/modern/leftcolumn.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="459">
-              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="459">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/modern/index.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="527">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CartController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/CartController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.576923" vertical-offset="1297" max-vertical-offset="3485">
-              <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="5440" max-vertical-offset="6664">
-              <caret line="340" column="34" selection-start-line="340" selection-start-column="34" selection-end-line="340" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductsModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/ProductsModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.846154" vertical-offset="2402" max-vertical-offset="3026">
-              <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#44#0#PHP" expanded="true" />
-                <marker date="1432308592516" expanded="true" signature="222:285" placeholder="SELECT * FRO..products..." />
-                <marker date="1432308592516" expanded="true" signature="643:721" placeholder="SELECT * FRO..products..." />
-                <marker date="1432308592516" expanded="true" signature="999:1068" placeholder="SELECT * FRO..products..." />
-                <marker date="1432308592516" expanded="true" signature="1438:1508" placeholder="SELECT * FRO..products..." />
-                <marker date="1432308592516" expanded="true" signature="1648:1719" placeholder="SELECT * FRO..." />
-                <marker date="1432308592516" expanded="true" signature="2059:2299" placeholder="INSERT INTO ..." />
-                <marker date="1432308592516" expanded="true" signature="3168:3258" placeholder="UPDATE produ..." />
-                <marker date="1432308592516" expanded="true" signature="3385:3452" placeholder="DELETE FROM ..." />
-                <marker date="1432308592516" expanded="true" signature="3396:3452" placeholder="UPDATE produ..." />
-                <marker date="1432308592516" expanded="true" signature="3417:3452" placeholder="UPDATE produ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/modern/header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72482014" vertical-offset="719" max-vertical-offset="1394">
-              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.576923" vertical-offset="770" max-vertical-offset="1394">
+              <caret line="63" column="99" selection-start-line="63" selection-start-column="99" selection-end-line="63" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coda-slider.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/www/templates/modern/css/coda-slider.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.43814433" vertical-offset="1309" max-vertical-offset="2499">
+              <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/modern/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="3961">
+              <caret line="38" column="1" selection-start-line="36" selection-start-column="0" selection-end-line="38" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="order.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/modern/order.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1938">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/modern/product.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="544">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cart.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/modern/cart.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.961538" vertical-offset="732" max-vertical-offset="1343">
+              <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="category.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/modern/category.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="612">
+              <caret line="3" column="33" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contactus.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/modern/contactus.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.961538" vertical-offset="583" max-vertical-offset="1547">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="templatemo_style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/templates/modern/css/templatemo_style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5287">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,21 +183,21 @@
         <option value="$PROJECT_DIR$/views/modern/footer.tpl" />
         <option value="$PROJECT_DIR$/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/views/modern/contactus.tpl" />
-        <option value="$PROJECT_DIR$/views/modern/cart.tpl" />
-        <option value="$PROJECT_DIR$/views/modern/product.tpl" />
-        <option value="$PROJECT_DIR$/views/modern/order.tpl" />
         <option value="$PROJECT_DIR$/views/modern/contactus.html" />
-        <option value="$PROJECT_DIR$/www/templates/modern/css/templatemo_style.css" />
         <option value="$PROJECT_DIR$/www/js/coda-slider.js" />
         <option value="$PROJECT_DIR$/views/modern/index.tpl" />
-        <option value="$PROJECT_DIR$/views/modern/category.tpl" />
         <option value="$PROJECT_DIR$/controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/models/ProductsModel.php" />
         <option value="$PROJECT_DIR$/www/js/main.js" />
         <option value="$PROJECT_DIR$/views/modern/user.tpl" />
-        <option value="$PROJECT_DIR$/www/templates/modern/css/coda-slider.css" />
         <option value="$PROJECT_DIR$/views/modern/leftcolumn.tpl" />
         <option value="$PROJECT_DIR$/views/modern/header.tpl" />
+        <option value="$PROJECT_DIR$/views/modern/category.tpl" />
+        <option value="$PROJECT_DIR$/www/templates/modern/css/templatemo_style.css" />
+        <option value="$PROJECT_DIR$/views/modern/product.tpl" />
+        <option value="$PROJECT_DIR$/views/modern/cart.tpl" />
+        <option value="$PROJECT_DIR$/views/modern/order.tpl" />
+        <option value="$PROJECT_DIR$/www/templates/modern/css/coda-slider.css" />
       </list>
     </option>
   </component>
@@ -592,14 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/modern/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3961">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.0384617" vertical-offset="98" max-vertical-offset="680">
@@ -664,14 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/modern/cart.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1343">
-          <caret line="3" column="33" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.65384614" vertical-offset="68" max-vertical-offset="850">
@@ -704,14 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/modern/contactus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.397482" vertical-offset="187" max-vertical-offset="1547">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/coda-slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="982" max-vertical-offset="1921">
@@ -720,34 +718,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/modern/css/templatemo_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4110" max-vertical-offset="4760">
-          <caret line="274" column="20" selection-start-line="274" selection-start-column="20" selection-end-line="274" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/modern/order.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="1921">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/admin/adminProducts.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23561151" vertical-offset="226" max-vertical-offset="850">
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/modern/category.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="612">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -832,16 +806,16 @@
           <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
           <folding>
             <element signature="e#6#44#0#PHP" expanded="true" />
-            <marker date="1432308592516" expanded="true" signature="222:285" placeholder="SELECT * FRO..products..." />
-            <marker date="1432308592516" expanded="true" signature="643:721" placeholder="SELECT * FRO..products..." />
-            <marker date="1432308592516" expanded="true" signature="999:1068" placeholder="SELECT * FRO..products..." />
-            <marker date="1432308592516" expanded="true" signature="1438:1508" placeholder="SELECT * FRO..products..." />
-            <marker date="1432308592516" expanded="true" signature="1648:1719" placeholder="SELECT * FRO..." />
-            <marker date="1432308592516" expanded="true" signature="2059:2299" placeholder="INSERT INTO ..." />
-            <marker date="1432308592516" expanded="true" signature="3168:3258" placeholder="UPDATE produ..." />
-            <marker date="1432308592516" expanded="true" signature="3385:3452" placeholder="DELETE FROM ..." />
-            <marker date="1432308592516" expanded="true" signature="3396:3452" placeholder="UPDATE produ..." />
-            <marker date="1432308592516" expanded="true" signature="3417:3452" placeholder="UPDATE produ..." />
+            <marker date="1432308592516" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..products..." />
+            <marker date="1432308592516" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..products..." />
+            <marker date="1432308592516" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..products..." />
+            <marker date="1432308592516" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..products..." />
+            <marker date="1432308592516" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
+            <marker date="1432308592516" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1432308592516" expanded="true" signature="-1:-1" placeholder="UPDATE produ..." />
+            <marker date="1432308592516" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1432308592516" expanded="true" signature="-1:-1" placeholder="UPDATE produ..." />
+            <marker date="1432308592516" expanded="true" signature="-1:-1" placeholder="UPDATE produ..." />
           </folding>
         </state>
       </provider>
@@ -862,26 +836,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/templates/modern/css/coda-slider.css">
+    <entry file="file://$PROJECT_DIR$/controllers/CartController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6202749" vertical-offset="1084" max-vertical-offset="2482">
-          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.576923" vertical-offset="1297" max-vertical-offset="3485">
+          <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/modern/user.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03057554" vertical-offset="0" max-vertical-offset="1666">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/modern/product.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1878453" vertical-offset="0" max-vertical-offset="543">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.42805755" vertical-offset="0" max-vertical-offset="1666">
+          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -896,14 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/CartController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.576923" vertical-offset="1297" max-vertical-offset="3485">
-          <caret line="99" column="3" selection-start-line="99" selection-start-column="3" selection-end-line="99" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/modern/index.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="527">
@@ -914,16 +872,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/modern/leftcolumn.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="459">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="459">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modern/contactus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.961538" vertical-offset="583" max-vertical-offset="1547">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/modern/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="404" max-vertical-offset="3961">
+          <caret line="38" column="1" selection-start-line="36" selection-start-column="0" selection-end-line="38" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modern/category.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="612">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/modern/header.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72482014" vertical-offset="719" max-vertical-offset="1394">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.576923" vertical-offset="770" max-vertical-offset="1394">
+          <caret line="63" column="99" selection-start-line="63" selection-start-column="99" selection-end-line="63" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modern/cart.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.961538" vertical-offset="732" max-vertical-offset="1343">
+          <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modern/product.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="544">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modern/order.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="1938">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/modern/css/templatemo_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5287">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/templates/modern/css/coda-slider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43814433" vertical-offset="1309" max-vertical-offset="2499">
+          <caret line="92" column="14" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="14" />
           <folding />
         </state>
       </provider>

@@ -16,6 +16,10 @@ body {
 	background-position: top;
 }
 
+.hideme{
+    display: none;
+}
+
 a, a:link, a:visited { 
 	color: #fcc32c; 
 	text-decoration: none; 
@@ -194,7 +198,25 @@ em { color: #fff; }
 	padding: 0px; 
 }
 
-#contact_form form .input_field { 
+
+
+.input_field{
+    width: 240px;
+    padding: 5px;
+    color: #999;
+    background: #111;
+    border: 1px solid #2f2824;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+    margin-top: 5px;
+}
+#loginBox, #registerBox, #userBox, .contact
+{
+ padding: 6px 14px;
+}
+
+
+#contact_form form .input_field {
 	width: 240px; 
 	padding: 5px; 
 	color: #999; 
@@ -231,6 +253,15 @@ em { color: #fff; }
 	border: 1px solid #2f2824; 
 	font-size:14px; 
 	margin: 10px 0px;
+}
+
+.submit_btn {
+    padding: 5px 14px;
+    color: #fff;
+    background: #111;
+    border: 1px solid #2f2824;
+    font-size:14px;
+    margin: 10px 0px;
 }
 
 #main{

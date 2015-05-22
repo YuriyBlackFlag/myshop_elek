@@ -3,7 +3,7 @@
 <div class="scrollContainer">
     <div class="panel" id="home">
 
-<h2>Категория: {$resCategory['name']}</h2>
+<h3>Категория: {$resCategory['name']}</h3>
 {if $resChildCats == null}
 
 {foreach $resProducts as $item}
@@ -24,7 +24,7 @@
 {/if}
 
 {foreach $resChildCats as $item}
-    <h2><a href="/category/{$item['id']}/">{$item['name']}</a></h2>
+    <h4><a href="/category/{$item['id']}/">{$item['name']}</a></h4>
 {/foreach}
         </div>
     </div>

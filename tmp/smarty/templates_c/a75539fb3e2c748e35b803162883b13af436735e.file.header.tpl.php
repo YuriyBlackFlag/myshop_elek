@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 20:19:05
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 21:02:54
          compiled from "..\views\modern\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:5061555ee6de90fd72-42056135%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a75539fb3e2c748e35b803162883b13af436735e' => 
     array (
       0 => '..\\views\\modern\\header.tpl',
-      1 => 1432315145,
+      1 => 1432317774,
       2 => 'file',
     ),
   ),
@@ -95,23 +95,23 @@ echo $_smarty_tpl->tpl_vars['cartCntItems']->value;
                     <?php if (!isset($_smarty_tpl->tpl_vars['hideLoginBox']->value)) {?>
                         <div id="loginBox">
                             <div class="menuCaption">Авторизация</div>
-                            <input type="text" id="loginEmail" name="loginEmail" value=""  placeholder="email"/><br />
-                            <input type="password" id="loginPwd" name="loginPwd" value="" placeholder="password"/><br />
-                            <input type="button" onclick="login();" value="Войти"/>
+                            <input type="text" id="loginEmail" name="loginEmail" value=""  placeholder="email" class="input_field"/><br />
+                            <input type="password" id="loginPwd" name="loginPwd" value="" placeholder="password"  class="input_field"/><br />
+                            <input type="button" onclick="login();" class="submit_btn" value="Войти"/>
                         </div>
 
                         <div id="registerBox">
                             <div class="menuCaption showHidden" onclick="showRegisterBox();">Регистрация</div>
                             <div id="registerBoxHidden">
-                                <input type="text" id="email" name="email" value="" placeholder="email"/><br />
-                                <input type="password" id="pwd" name="pwd" value="" placeholder="password"/><br />
-                                <input type="button" onclick="registerNewUser();" value="Зарегистрироваться"/>
+                                <input type="text" id="email" name="email" value="" placeholder="email"  class="input_field"/><br />
+                                <input type="password" id="pwd" name="pwd" value="" placeholder="password"  class="input_field"/><br />
+                                <input type="button" onclick="registerNewUser();" class="submit_btn" value="Зарегистрироваться"/>
                             </div>
                         </div>
 
                     <?php }?>
                 <?php }?>
-                <div><a href="/views/modern/contactus.html">Контакты</a></div>
+                <div class="contact"><a href="/views/modern/contactus.html">Контакты</a></div>
             </div>
 
 

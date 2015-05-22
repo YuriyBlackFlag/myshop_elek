@@ -2,10 +2,11 @@
 <div class="scrollContainer">
     <div class="scroll">
 {if $resProduct}
+        <div class="panel" id="home">
 <h3>{$resProduct['name']}</h3>
 
 
-                <img src="/www/images/products/{$resProduct['image']}" width="430"  /><br />
+                <img src="/www/images/products/{$resProduct['image']}" width="350"  /><br />
             Цена {$resProduct['price']} UAH
             <a id="removeCart_{$resProduct['id']}" {if ! $itemInCart} class="hideme"{/if} href="#" onClick="removeFromCart({$resProduct['id']}); return false;"
                alt="Удалить из корзины">Удалить из корзины</a>
@@ -21,5 +22,6 @@
 {else}
         <div class="text">Нет такого товара!</div>
 {/if}
+    </div>
 </div>
     </div>

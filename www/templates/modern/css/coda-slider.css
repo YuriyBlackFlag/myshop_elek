@@ -40,7 +40,7 @@
 	float: left;
 	width: 630px;
 	height: 410px;
-	padding: 40px 20px;
+	padding: 10px 20px;
 
 }
 
@@ -78,24 +78,25 @@
 
 .scroll {
     width: 630px;
-    height: 410px;
+    height: 420px;
     overflow: auto;
     /*overflow-x: hidden;*/
     position: relative;
     clear: left;
-
+    overflow-y: scroll;
 }
 
 .scrollContainer div.panel {
     width: 630px;
-    height: 410px;
+    height: 420px;
     overflow-y: auto;
+    padding: 10px 20px;
 }
 
 ul.navigation {
     list-style: none; 
     margin: 0 12px 0 0;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 ul.navigation li {
@@ -105,9 +106,9 @@ ul.navigation li {
 
 ul.navigation a {
 	display: block;
-	width: 90px;
+	width: 100px;
 	height: 38px;
-	padding-left: 28px;
+	padding-left: 22px;
 	line-height: 38px;
 	margin-bottom: 10px;
     text-decoration: none;

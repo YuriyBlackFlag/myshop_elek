@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 15:23:07
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 23:25:02
          compiled from "..\views\modern\cart.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:11444555f1b72442133-94947275%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7744ee92e63fbf7f98defc5a83c4a59c1fd0a979' => 
     array (
       0 => '..\\views\\modern\\cart.tpl',
-      1 => 1432297387,
+      1 => 1432326301,
       2 => 'file',
     ),
   ),
@@ -114,7 +114,7 @@ $_smarty_tpl->tpl_vars['item']->_loop = true;
         <?php } ?>
 
     </table>
-        <input type="submit" value="Оформить заказ"/>
+        <input type="submit" value="Оформить заказ" class="submit_btn"/>
     </form>
 <?php }?>
         </div>
