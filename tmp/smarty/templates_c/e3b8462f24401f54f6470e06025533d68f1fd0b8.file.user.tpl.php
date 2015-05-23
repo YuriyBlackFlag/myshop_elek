@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 20:01:51
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-23 11:23:17
          compiled from "..\views\modern\user.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:15261555f606ea68f21-80777921%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e3b8462f24401f54f6470e06025533d68f1fd0b8' => 
     array (
       0 => '..\\views\\modern\\user.tpl',
-      1 => 1432314109,
+      1 => 1432369396,
       2 => 'file',
     ),
   ),
@@ -75,11 +75,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <tr>
             <th>№</th>
             <th>Действие</th>
-            <th>ID заказа</th>
             <th>Статус</th>
             <th>Дата создания</th>
             <th>Дата оплаты</th>
-            <th>Дополнительная информация</th>
         </tr>
         <?php  $_smarty_tpl->tpl_vars['item'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['item']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['resUserOrders']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
@@ -93,15 +91,11 @@ $_smarty_tpl->tpl_vars['item']->_loop = true;
 </td>
                 <td><a href="#" onclick="showProducts('<?php echo $_smarty_tpl->tpl_vars['item']->value['id'];?>
 '); return false;" >Показать товар заказа</a></td>
-                <td><?php echo $_smarty_tpl->tpl_vars['item']->value['id'];?>
-</td>
                 <td><?php if ($_smarty_tpl->tpl_vars['item']->value['status']==0) {?>Заказ не оплачен<?php } else { ?>Заказ оплачен<?php }?></td>
                 <td><?php echo $_smarty_tpl->tpl_vars['item']->value['date_created'];?>
 </td>
                 <td><?php echo $_smarty_tpl->tpl_vars['item']->value['date_payment'];?>
 &nbsp;</td>
-                <td><?php echo $_smarty_tpl->tpl_vars['item']->value['comment'];?>
-</td>
             </tr>
 
             <tr class="hideme" id="purchasesForOrderId_<?php echo $_smarty_tpl->tpl_vars['item']->value['id'];?>
@@ -111,7 +105,6 @@ $_smarty_tpl->tpl_vars['item']->_loop = true;
                         <table border="1" cellpadding="1" cellspacing="1" width="100%">
                             <tr>
                                 <th>№</th>
-                                <th>ID</th>
                                 <th>Название</th>
                                 <th>Цена</th>
                                 <th>Количество</th>
@@ -125,8 +118,6 @@ $_smarty_tpl->tpl_vars['itemChild']->_loop = true;
 ?>
                                 <tr>
                                     <td><?php echo $_smarty_tpl->tpl_vars['itemChild']->iteration;?>
-</td>
-                                    <td><?php echo $_smarty_tpl->tpl_vars['itemChild']->value['product_id'];?>
 </td>
                                     <td><a href="/product/<?php echo $_smarty_tpl->tpl_vars['itemChild']->value['product_id'];?>
 /"><?php echo $_smarty_tpl->tpl_vars['itemChild']->value['name'];?>

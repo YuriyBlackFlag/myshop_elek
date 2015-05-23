@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-22 21:02:54
+<?php /* Smarty version Smarty-3.1.21-dev, created on 2015-05-23 11:04:23
          compiled from "..\views\modern\header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:5061555ee6de90fd72-42056135%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a75539fb3e2c748e35b803162883b13af436735e' => 
     array (
       0 => '..\\views\\modern\\header.tpl',
-      1 => 1432317774,
+      1 => 1432368262,
       2 => 'file',
     ),
   ),
@@ -69,7 +69,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div id="slider">
             <div id="templatemo_header_wrapper">
                 <div id="templatemo_header">
-                    <div id="header"><h1><a href="/www/index.php">Электрончик магазин нужных вещей</a></h1></div>
+                    <div id="header"><h1><a href="index.php">Электрончик <h2>магазин<br /> нужных вещей</h2></a></h1></div>
                 </div>
                 <div class="Caption">Корзина<br />
                     <a href="/cart/" title="Перейти в корзину">В корзине</a>

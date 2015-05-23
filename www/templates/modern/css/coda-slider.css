@@ -59,14 +59,14 @@
 
 #templatemo_footer_wrapper {
 	width: 100%;
-	height: 80px;
+	height: 20px;
 	background: url(/www/images/templatemo_footer.jpg) no-repeat
 }
 
 #templatemo_footer {
 	clear: both;
 	width: 800px;
-	height: 80px;
+	height: 20px;
 	padding: 20px 10px;
 	margin: 0 auto;
 	text-align: center;
@@ -78,7 +78,7 @@
 
 .scroll {
     width: 630px;
-    height: 420px;
+    height: 440px;
     overflow: auto;
     /*overflow-x: hidden;*/
     position: relative;
@@ -88,9 +88,9 @@
 
 .scrollContainer div.panel {
     width: 630px;
-    height: 420px;
+    height: 440px;
     overflow-y: auto;
-    padding: 10px 20px;
+    padding: 10px 20px 5px;
 }
 
 ul.navigation {
