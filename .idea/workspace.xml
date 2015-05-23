@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="963d8fad-e657-410f-954d-7c6a35d701b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/templates_c/a75539fb3e2c748e35b803162883b13af436735e.file.header.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/templates_c/a75539fb3e2c748e35b803162883b13af436735e.file.header.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/templates/modern/css/coda-slider.css" afterPath="$PROJECT_DIR$/www/templates/modern/css/coda-slider.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/modern/contactus.html" afterPath="$PROJECT_DIR$/views/modern/contactus.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/smarty/templates_c/e3b8462f24401f54f6470e06025533d68f1fd0b8.file.user.tpl.php" afterPath="$PROJECT_DIR$/tmp/smarty/templates_c/e3b8462f24401f54f6470e06025533d68f1fd0b8.file.user.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/modern/header.tpl" afterPath="$PROJECT_DIR$/views/modern/header.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/default/user.tpl" afterPath="$PROJECT_DIR$/views/default/user.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/modern/user.tpl" afterPath="$PROJECT_DIR$/views/modern/user.tpl" />
     </list>
     <ignored path="myshop.local.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="coda-slider.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="coda-slider.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/templates/modern/css/coda-slider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53887886" vertical-offset="875" max-vertical-offset="2499">
+            <state vertical-scroll-proportion="-10.275862" vertical-offset="875" max-vertical-offset="2499">
               <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
               <folding />
             </state>
@@ -113,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contactus.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contactus.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/modern/contactus.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.807692" vertical-offset="124" max-vertical-offset="1581">
+            <state vertical-scroll-proportion="0.17446043" vertical-offset="464" max-vertical-offset="1581">
               <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
               <folding />
             </state>
@@ -188,10 +182,10 @@
         <option value="$PROJECT_DIR$/views/modern/cart.tpl" />
         <option value="$PROJECT_DIR$/views/modern/order.tpl" />
         <option value="$PROJECT_DIR$/views/modern/header.tpl" />
-        <option value="$PROJECT_DIR$/views/modern/contactus.html" />
         <option value="$PROJECT_DIR$/views/default/user.tpl" />
         <option value="$PROJECT_DIR$/views/modern/user.tpl" />
         <option value="$PROJECT_DIR$/www/templates/modern/css/coda-slider.css" />
+        <option value="$PROJECT_DIR$/views/modern/contactus.html" />
       </list>
     </option>
   </component>
@@ -820,14 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/modern/contactus.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.807692" vertical-offset="124" max-vertical-offset="1581">
-          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/default/user.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2967626" vertical-offset="889" max-vertical-offset="1513">
@@ -854,8 +840,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/templates/modern/css/coda-slider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53887886" vertical-offset="875" max-vertical-offset="2499">
+        <state vertical-scroll-proportion="-10.275862" vertical-offset="875" max-vertical-offset="2499">
           <caret line="69" column="14" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/modern/contactus.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17446043" vertical-offset="464" max-vertical-offset="1581">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
           <folding />
         </state>
       </provider>
