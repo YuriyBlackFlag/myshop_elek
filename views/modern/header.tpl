@@ -28,7 +28,7 @@
 <div id="slider">
             <div id="templatemo_header_wrapper">
                 <div id="templatemo_header">
-                    <div id="header"><h1><a href="index.php">Электрончик <h2>магазин<br /> нужных вещей</h2></a></h1></div>
+                    <div id="header"><h1><a href="/">Электрончик <h2>магазин<br /> нужных вещей</h2></a></h1></div>
                 </div>
                 <div class="Caption">Корзина<br />
                     <a href="/cart/" title="Перейти в корзину">В корзине</a>
